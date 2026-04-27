@@ -1,4 +1,4 @@
-# Go2 SLAM
+# Go2 SLAM ( 注意所有操作都在GO2扩展坞(仅支持GO2 EDU版本)进行 )
 
 项目根目录下的 Shell 脚本用于管理 Go2 机器狗的 SLAM 与导航。
 
