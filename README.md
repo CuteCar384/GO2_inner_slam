@@ -24,8 +24,46 @@ source unitree_ros2/install/setup.bash
 ### 前置条件
 
 - ROS 2 Jazzy (`/opt/ros/jazzy/setup.bash`)
-- 工作空间已编译 (`colcon build`)
-- 需要图形界面环境（`DISPLAY` 或 `WAYLAND_DISPLAY`）
+- Unitree ROS 2 消息包已编译并 source (`unitree_ros2/install/setup.bash`)
+- 需要图形界面环境（`DISPLAY` 或 `WAYLAND_DISPLAY`），用于启动 RViz
+
+以下依赖需要在 `jazzy` 容器内部安装：
+
+```bash
+apt-get update
+apt-get install -y \
+  python3-colcon-common-extensions \
+  ros-jazzy-navigation2 \
+  ros-jazzy-nav2-bringup \
+  ros-jazzy-slam-toolbox \
+  ros-jazzy-robot-localization \
+  ros-jazzy-rviz2 \
+  ros-jazzy-pcl-ros \
+  ros-jazzy-pcl-conversions \
+  ros-jazzy-laser-geometry \
+  ros-jazzy-tf2-sensor-msgs \
+  ros-jazzy-xacro \
+  ros-jazzy-robot-state-publisher \
+  ros-jazzy-joint-state-publisher
+```
+
+其中：
+
+- `ros-jazzy-pcl-ros`、`ros-jazzy-pcl-conversions`：点云建图包 `go2_mapping_only` 编译需要。
+- `ros-jazzy-rviz2`：启动脚本默认会打开 RViz；如果容器内未安装，会出现 `rviz2: command not found`。
+- `ros-jazzy-navigation2`、`ros-jazzy-nav2-bringup`：Nav2 导航栈，包含 planner、controller、behavior、lifecycle 等导航组件。
+- `ros-jazzy-slam-toolbox`：SLAM 模式下发布 `/map` 和 `map -> odom` 变换。
+- `ros-jazzy-robot-localization`：EKF 融合里程计/IMU，提供导航所需的定位数据。
+
+安装完成后，在容器内编译：
+
+```bash
+cd /home/unitree/go2slam
+source /opt/ros/jazzy/setup.bash
+source unitree_ros2/install/setup.bash
+colcon build
+source install/setup.bash
+```
 
 ---
 
