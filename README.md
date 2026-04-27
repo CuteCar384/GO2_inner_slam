@@ -31,7 +31,9 @@ apt-get install -y \
   ros-jazzy-robot-state-publisher \
   ros-jazzy-joint-state-publisher
 
-# 容器/home/unitree内 clone 项目后，执行以下命令完成环境准备
+# clone项目
+cd /home/unitree/
+git clone https://github.com/CuteCar384/GO2_inner_slam.git
 # 本项目所有包都提前在GO2 EDU内部同docker环境进行过编译, 可直接激活
 cd GO2_inner_slam/
 source install/setup.bash
