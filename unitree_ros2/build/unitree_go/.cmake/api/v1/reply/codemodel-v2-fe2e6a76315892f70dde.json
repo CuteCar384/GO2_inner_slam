@@ -1,0 +1,276 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-491f531814c0e48d2c76.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						17,
+						18,
+						19,
+						20
+					]
+				},
+				{
+					"build" : "unitree_go__py",
+					"jsonFile" : "directory-unitree_go__py-cdac13bff9924923a715.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/unitree/go2slam/unitree_ros2/build/unitree_go/unitree_go__py",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "unitree_go__rs",
+					"jsonFile" : "directory-unitree_go__rs-045ecce6dc05a3b26212.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/unitree/go2slam/unitree_ros2/build/unitree_go/unitree_go__rs",
+					"targetIndexes" : 
+					[
+						16
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "unitree_go",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_unitree_go_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_unitree_go_egg-34efbfe39c6f831935d8.json",
+					"name" : "ament_cmake_python_build_unitree_go_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_unitree_go::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_unitree_go-15529d2b2db56c0bc249.json",
+					"name" : "ament_cmake_python_copy_unitree_go",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-603c3f0349e6b3427ced.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unitree_go::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unitree_go-f57f4e78abc5d2eb5969.json",
+					"name" : "unitree_go",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unitree_go__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unitree_go__cpp-372433373d728631e4ba.json",
+					"name" : "unitree_go__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unitree_go__dds_connext_idl::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unitree_go__dds_connext_idl-09b82ef8b367bba01bed.json",
+					"name" : "unitree_go__dds_connext_idl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "unitree_go__py::@38a1591e0fd21223daaf",
+					"jsonFile" : "target-unitree_go__py-f4fbc3500818c9c2e51d.json",
+					"name" : "unitree_go__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unitree_go__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unitree_go__rosidl_generator_c-42116f7ec355ade19c40.json",
+					"name" : "unitree_go__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unitree_go__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unitree_go__rosidl_generator_py-6f9d337f5e905c22284e.json",
+					"name" : "unitree_go__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unitree_go__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unitree_go__rosidl_generator_type_description-9e608ef47e659e22a150.json",
+					"name" : "unitree_go__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unitree_go__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unitree_go__rosidl_typesupport_c-6abcd0f0dcbcf9afe1e9.json",
+					"name" : "unitree_go__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unitree_go__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unitree_go__rosidl_typesupport_cpp-6d5195fab4abd1655282.json",
+					"name" : "unitree_go__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unitree_go__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unitree_go__rosidl_typesupport_fastrtps_c-84bb2946730b48d97d4a.json",
+					"name" : "unitree_go__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unitree_go__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unitree_go__rosidl_typesupport_fastrtps_cpp-2481f5ca1ee5413a7a8d.json",
+					"name" : "unitree_go__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unitree_go__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unitree_go__rosidl_typesupport_introspection_c-193904cbde09fb14a455.json",
+					"name" : "unitree_go__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unitree_go__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unitree_go__rosidl_typesupport_introspection_cpp-116d5a99d3cdff0b0a2d.json",
+					"name" : "unitree_go__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "unitree_go__rs::@7dd36a4333388e27319b",
+					"jsonFile" : "target-unitree_go__rs-f777162309586d263970.json",
+					"name" : "unitree_go__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unitree_go_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unitree_go_s__rosidl_typesupport_c-139950df2507436daff1.json",
+					"name" : "unitree_go_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unitree_go_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unitree_go_s__rosidl_typesupport_fastrtps_c-3180089a101e64fccd97.json",
+					"name" : "unitree_go_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unitree_go_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unitree_go_s__rosidl_typesupport_introspection_c-5ff5306883af7640cadb.json",
+					"name" : "unitree_go_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unitree_go_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unitree_go_uninstall-e2d0779160d19ef106a6.json",
+					"name" : "unitree_go_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/unitree/go2slam/unitree_ros2/build/unitree_go",
+		"source" : "/home/unitree/go2slam/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
