@@ -18,7 +18,8 @@ xhost +
 docker exec -it jazzy /bin/bash
 
 # 容器内 clone 项目后，执行以下命令完成环境准备
-source unitree_ros2/install/setup.bash
+cd GO2_inner_slam/
+source install/setup.bash
 ```
 
 ### 前置条件
