@@ -1,0 +1,87 @@
+[0.062s] Invoking command in '/home/unitree/go2slam/build/go2_mapping_only': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/unitree/go2slam/build/go2_mapping_only -- -j6 -l6
+[0.203s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.205s] -- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.328s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.360s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.415s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.508s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.876s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.881s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.118s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.321s] -- Found sensor_msgs: 5.3.7 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[2.560s] -- Found nav_msgs: 5.3.7 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[2.643s] -- Found tf2: 0.36.20 (/opt/ros/jazzy/share/tf2/cmake)
+[2.675s] -- Found tf2_ros: 0.36.20 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[2.829s] -- Found pcl_ros: 2.6.4 (/opt/ros/jazzy/share/pcl_ros/cmake)
+[3.028s] CMake Warning (dev) at /usr/lib/aarch64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):
+[3.028s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[3.029s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[3.029s]   cmake_policy command to set the policy and suppress this warning.
+[3.029s] 
+[3.029s]   CMake variable FLANN_ROOT is set to:
+[3.029s] 
+[3.029s]     /usr
+[3.030s] 
+[3.030s]   For compatibility, find_package is ignoring the variable, but code in a
+[3.030s]   .cmake module might still use it.
+[3.030s] Call Stack (most recent call first):
+[3.030s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)
+[3.030s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)
+[3.031s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)
+[3.031s]   /opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[3.031s]   /opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[3.031s]   /opt/ros/jazzy/share/pcl_ros/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[3.031s]   /opt/ros/jazzy/share/pcl_ros/cmake/pcl_rosConfig.cmake:41 (include)
+[3.031s]   CMakeLists.txt:15 (find_package)
+[3.031s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.032s] 
+[3.032s] -- Found flann version 1.9.2
+[3.888s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.899s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.908s] -- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) 
+[4.761s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.774s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[5.583s] -- Found Qhull version 8.0.2
+[6.441s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[7.311s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[7.314s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[7.321s] CMake Warning (dev) at CMakeLists.txt:17 (find_package):
+[7.322s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[7.322s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[7.322s]   command to set the policy and suppress this warning.
+[7.322s] 
+[7.322s]   CMake variable PCL_ROOT is set to:
+[7.323s] 
+[7.323s]     /usr
+[7.323s] 
+[7.323s]   For compatibility, CMake is ignoring the variable.
+[7.323s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[7.323s] 
+[7.562s] -- Configuring done (7.4s)
+[7.712s] -- Generating done (0.1s)
+[7.730s] -- Build files have been written to: /home/unitree/go2slam/build/go2_mapping_only
+[7.937s] [100%] Built target go2_map_builder
+[7.963s] Invoked command in '/home/unitree/go2slam/build/go2_mapping_only' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/unitree/go2slam/build/go2_mapping_only -- -j6 -l6
+[7.966s] Invoking command in '/home/unitree/go2slam/build/go2_mapping_only': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/unitree/go2slam/build/go2_mapping_only
+[7.984s] -- Install configuration: ""
+[7.985s] -- Up-to-date: /home/unitree/go2slam/install/go2_mapping_only/lib/go2_mapping_only/go2_map_builder
+[7.985s] -- Up-to-date: /home/unitree/go2slam/install/go2_mapping_only/share/go2_mapping_only/launch
+[7.987s] -- Installing: /home/unitree/go2slam/install/go2_mapping_only/share/go2_mapping_only/launch/mapping_only.launch.py
+[7.987s] -- Up-to-date: /home/unitree/go2slam/install/go2_mapping_only/share/go2_mapping_only/rviz_cfg
+[7.987s] -- Installing: /home/unitree/go2slam/install/go2_mapping_only/share/go2_mapping_only/rviz_cfg/mapping_only.rviz
+[7.987s] -- Up-to-date: /home/unitree/go2slam/install/go2_mapping_only/share/ament_index/resource_index/package_run_dependencies/go2_mapping_only
+[7.988s] -- Installing: /home/unitree/go2slam/install/go2_mapping_only/share/ament_index/resource_index/parent_prefix_path/go2_mapping_only
+[7.989s] -- Installing: /home/unitree/go2slam/install/go2_mapping_only/share/go2_mapping_only/environment/ament_prefix_path.sh
+[7.989s] -- Up-to-date: /home/unitree/go2slam/install/go2_mapping_only/share/go2_mapping_only/environment/ament_prefix_path.dsv
+[7.990s] -- Installing: /home/unitree/go2slam/install/go2_mapping_only/share/go2_mapping_only/environment/path.sh
+[7.990s] -- Up-to-date: /home/unitree/go2slam/install/go2_mapping_only/share/go2_mapping_only/environment/path.dsv
+[7.990s] -- Installing: /home/unitree/go2slam/install/go2_mapping_only/share/go2_mapping_only/local_setup.bash
+[7.990s] -- Installing: /home/unitree/go2slam/install/go2_mapping_only/share/go2_mapping_only/local_setup.sh
+[7.990s] -- Installing: /home/unitree/go2slam/install/go2_mapping_only/share/go2_mapping_only/local_setup.zsh
+[7.991s] -- Installing: /home/unitree/go2slam/install/go2_mapping_only/share/go2_mapping_only/local_setup.dsv
+[7.991s] -- Installing: /home/unitree/go2slam/install/go2_mapping_only/share/go2_mapping_only/package.dsv
+[7.991s] -- Up-to-date: /home/unitree/go2slam/install/go2_mapping_only/share/ament_index/resource_index/packages/go2_mapping_only
+[7.991s] -- Up-to-date: /home/unitree/go2slam/install/go2_mapping_only/share/go2_mapping_only/cmake/go2_mapping_onlyConfig.cmake
+[7.991s] -- Up-to-date: /home/unitree/go2slam/install/go2_mapping_only/share/go2_mapping_only/cmake/go2_mapping_onlyConfig-version.cmake
+[7.991s] -- Installing: /home/unitree/go2slam/install/go2_mapping_only/share/go2_mapping_only/package.xml
+[7.994s] Invoked command in '/home/unitree/go2slam/build/go2_mapping_only' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/unitree/go2slam/build/go2_mapping_only

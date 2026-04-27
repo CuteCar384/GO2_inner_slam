@@ -1,0 +1,424 @@
+[0.066s] Invoking command in '/home/unitree/go2slam/build/unitree_hg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/unitree/go2slam/build/unitree_hg -- -j6 -l6
+[0.685s] [  1%] Built target unitree_hg__rosidl_generator_type_description
+[0.686s] [  2%] Built target unitree_hg__dds_connext_idl
+[0.699s] [  2%] Built target ament_cmake_python_copy_unitree_hg
+[0.708s] [  3%] Built target unitree_hg__rs
+[0.862s] [  3%] Built target unitree_hg__cpp
+[0.921s] [ 28%] Built target unitree_hg__rosidl_generator_c
+[1.098s] [ 38%] Built target unitree_hg__rosidl_typesupport_introspection_c
+[1.205s] [ 47%] Built target unitree_hg__rosidl_typesupport_fastrtps_cpp
+[1.249s] [ 57%] Built target unitree_hg__rosidl_typesupport_c
+[1.261s] [ 66%] Built target unitree_hg__rosidl_typesupport_introspection_cpp
+[1.290s] [ 76%] Built target unitree_hg__rosidl_typesupport_fastrtps_c
+[1.340s] [ 85%] Built target unitree_hg__rosidl_typesupport_cpp
+[1.452s] [ 85%] Built target unitree_hg
+[1.512s] running egg_info
+[1.512s] [ 86%] Built target unitree_hg__py
+[1.633s] writing unitree_hg.egg-info/PKG-INFO
+[1.634s] writing dependency_links to unitree_hg.egg-info/dependency_links.txt
+[1.636s] writing top-level names to unitree_hg.egg-info/top_level.txt
+[1.675s] [ 95%] Built target unitree_hg__rosidl_generator_py
+[1.751s] [ 96%] Built target unitree_hg_s__rosidl_typesupport_fastrtps_c
+[1.760s] reading manifest file 'unitree_hg.egg-info/SOURCES.txt'
+[1.761s] writing manifest file 'unitree_hg.egg-info/SOURCES.txt'
+[1.839s] [ 98%] Built target unitree_hg_s__rosidl_typesupport_c
+[1.848s] [100%] Built target unitree_hg_s__rosidl_typesupport_introspection_c
+[2.004s] [100%] Built target ament_cmake_python_build_unitree_hg_egg
+[2.085s] Invoked command in '/home/unitree/go2slam/build/unitree_hg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/unitree/go2slam/build/unitree_hg -- -j6 -l6
+[2.086s] Invoking command in '/home/unitree/go2slam/build/unitree_hg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/unitree/go2slam/build/unitree_hg
+[2.143s] -- Install configuration: ""
+[2.143s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/ament_index/resource_index/rosidl_interfaces/unitree_hg
+[2.143s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/msg/BmsCmd.json
+[2.143s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/msg/BmsState.json
+[2.144s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/msg/HandCmd.json
+[2.144s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/msg/HandState.json
+[2.144s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/msg/IMUState.json
+[2.144s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/msg/LowCmd.json
+[2.145s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/msg/LowState.json
+[2.145s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/msg/MainBoardState.json
+[2.145s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/msg/MotorCmd.json
+[2.145s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/msg/MotorState.json
+[2.146s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/msg/PressSensorState.json
+[2.146s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg
+[2.146s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg
+[2.146s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/hand_state.h
+[2.147s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/low_cmd.h
+[2.147s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/bms_state.h
+[2.148s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/rosidl_generator_c__visibility_control.h
+[2.148s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/motor_cmd.h
+[2.149s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/press_sensor_state.h
+[2.149s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail
+[2.152s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__functions.c
+[2.153s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__functions.c
+[2.153s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__type_support.c
+[2.153s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__type_support.c
+[2.159s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__struct.h
+[2.161s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__functions.c
+[2.162s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__description.c
+[2.162s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__functions.h
+[2.164s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__type_support.c
+[2.164s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__type_support.h
+[2.164s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__type_support.c
+[2.164s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__struct.h
+[2.165s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__type_support.h
+[2.165s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__description.c
+[2.166s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__struct.h
+[2.166s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__description.c
+[2.166s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__struct.h
+[2.181s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__description.c
+[2.181s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__description.c
+[2.181s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__description.c
+[2.182s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__type_support.c
+[2.184s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__functions.h
+[2.184s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__struct.h
+[2.185s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__type_support.h
+[2.185s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__type_support.h
+[2.185s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__type_support.h
+[2.186s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__type_support.h
+[2.194s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__functions.h
+[2.195s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__functions.c
+[2.195s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__description.c
+[2.196s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__functions.h
+[2.196s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__description.c
+[2.196s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__functions.c
+[2.197s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__functions.h
+[2.197s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__functions.c
+[2.197s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__description.c
+[2.198s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__type_support.h
+[2.198s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__type_support.c
+[2.198s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__functions.h
+[2.206s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__functions.h
+[2.207s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__struct.h
+[2.207s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__type_support.c
+[2.208s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__struct.h
+[2.208s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__type_support.h
+[2.209s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__type_support.h
+[2.209s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__type_support.h
+[2.209s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__description.c
+[2.209s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__type_support.c
+[2.210s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__type_support.c
+[2.210s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__functions.h
+[2.211s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__functions.h
+[2.211s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__type_support.c
+[2.211s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__functions.c
+[2.211s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__description.c
+[2.212s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__struct.h
+[2.212s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__functions.h
+[2.214s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__functions.c
+[2.214s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__functions.c
+[2.214s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__struct.h
+[2.214s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__functions.c
+[2.214s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__functions.h
+[2.214s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__struct.h
+[2.215s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__type_support.h
+[2.215s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__struct.h
+[2.215s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__functions.c
+[2.215s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__type_support.c
+[2.216s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/main_board_state.h
+[2.216s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/low_state.h
+[2.229s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/bms_cmd.h
+[2.230s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/imu_state.h
+[2.236s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/motor_state.h
+[2.236s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/hand_cmd.h
+[2.238s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/environment/library_path.sh
+[2.238s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/environment/library_path.dsv
+[2.239s] -- Installing: /home/unitree/go2slam/install/unitree_hg/lib/libunitree_hg__rosidl_generator_c.so
+[2.269s] -- Set non-toolchain portion of runtime path of "/home/unitree/go2slam/install/unitree_hg/lib/libunitree_hg__rosidl_generator_c.so" to ""
+[2.269s] -- Up-to-date: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg
+[2.269s] -- Up-to-date: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg
+[2.270s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.270s] -- Up-to-date: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail
+[2.271s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__rosidl_typesupport_fastrtps_c.h
+[2.271s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__rosidl_typesupport_fastrtps_c.h
+[2.271s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__rosidl_typesupport_fastrtps_c.h
+[2.272s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__rosidl_typesupport_fastrtps_c.h
+[2.272s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__rosidl_typesupport_fastrtps_c.h
+[2.273s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__rosidl_typesupport_fastrtps_c.h
+[2.273s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__rosidl_typesupport_fastrtps_c.h
+[2.273s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__rosidl_typesupport_fastrtps_c.h
+[2.274s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__rosidl_typesupport_fastrtps_c.h
+[2.274s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__rosidl_typesupport_fastrtps_c.h
+[2.275s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__rosidl_typesupport_fastrtps_c.h
+[2.289s] -- Installing: /home/unitree/go2slam/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_fastrtps_c.so
+[2.289s] -- Set non-toolchain portion of runtime path of "/home/unitree/go2slam/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_fastrtps_c.so" to ""
+[2.290s] -- Up-to-date: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg
+[2.290s] -- Up-to-date: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg
+[2.290s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/hand_state.hpp
+[2.290s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/press_sensor_state.hpp
+[2.290s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/motor_cmd.hpp
+[2.290s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/motor_state.hpp
+[2.290s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/bms_cmd.hpp
+[2.291s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/low_cmd.hpp
+[2.291s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/imu_state.hpp
+[2.291s] -- Up-to-date: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail
+[2.292s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__traits.hpp
+[2.292s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__struct.hpp
+[2.292s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__traits.hpp
+[2.294s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__type_support.hpp
+[2.294s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__type_support.hpp
+[2.294s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__type_support.hpp
+[2.294s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__builder.hpp
+[2.294s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__builder.hpp
+[2.295s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__struct.hpp
+[2.295s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__struct.hpp
+[2.295s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__struct.hpp
+[2.295s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__type_support.hpp
+[2.295s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__builder.hpp
+[2.295s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__type_support.hpp
+[2.296s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__struct.hpp
+[2.296s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__type_support.hpp
+[2.296s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__traits.hpp
+[2.296s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__builder.hpp
+[2.296s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__traits.hpp
+[2.296s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__type_support.hpp
+[2.297s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__struct.hpp
+[2.297s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__type_support.hpp
+[2.297s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__builder.hpp
+[2.297s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__builder.hpp
+[2.297s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__struct.hpp
+[2.297s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__traits.hpp
+[2.298s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__builder.hpp
+[2.298s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__type_support.hpp
+[2.298s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__traits.hpp
+[2.298s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__type_support.hpp
+[2.298s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__type_support.hpp
+[2.298s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__builder.hpp
+[2.299s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__traits.hpp
+[2.299s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__traits.hpp
+[2.299s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__struct.hpp
+[2.299s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__builder.hpp
+[2.299s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__builder.hpp
+[2.299s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__traits.hpp
+[2.300s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__traits.hpp
+[2.300s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__struct.hpp
+[2.300s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__struct.hpp
+[2.300s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__traits.hpp
+[2.300s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__struct.hpp
+[2.300s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__builder.hpp
+[2.301s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/hand_cmd.hpp
+[2.302s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/bms_state.hpp
+[2.302s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.302s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/low_state.hpp
+[2.302s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/main_board_state.hpp
+[2.302s] -- Up-to-date: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg
+[2.303s] -- Up-to-date: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg
+[2.303s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.306s] -- Up-to-date: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail
+[2.306s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__rosidl_typesupport_fastrtps_cpp.hpp
+[2.306s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[2.306s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__rosidl_typesupport_fastrtps_cpp.hpp
+[2.307s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[2.307s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/dds_fastrtps
+[2.308s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__rosidl_typesupport_fastrtps_cpp.hpp
+[2.308s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[2.308s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__rosidl_typesupport_fastrtps_cpp.hpp
+[2.308s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__rosidl_typesupport_fastrtps_cpp.hpp
+[2.308s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__rosidl_typesupport_fastrtps_cpp.hpp
+[2.308s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__rosidl_typesupport_fastrtps_cpp.hpp
+[2.308s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[2.309s] -- Installing: /home/unitree/go2slam/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_fastrtps_cpp.so
+[2.309s] -- Set non-toolchain portion of runtime path of "/home/unitree/go2slam/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.309s] -- Up-to-date: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg
+[2.310s] -- Up-to-date: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg
+[2.310s] -- Up-to-date: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail
+[2.310s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__type_support.c
+[2.310s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__type_support.c
+[2.310s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__type_support.c
+[2.310s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__type_support.c
+[2.311s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__rosidl_typesupport_introspection_c.h
+[2.311s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__rosidl_typesupport_introspection_c.h
+[2.312s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__type_support.c
+[2.312s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__rosidl_typesupport_introspection_c.h
+[2.312s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__rosidl_typesupport_introspection_c.h
+[2.312s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__rosidl_typesupport_introspection_c.h
+[2.312s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__type_support.c
+[2.312s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__type_support.c
+[2.313s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__rosidl_typesupport_introspection_c.h
+[2.314s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__type_support.c
+[2.314s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__rosidl_typesupport_introspection_c.h
+[2.315s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__type_support.c
+[2.315s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__type_support.c
+[2.315s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__rosidl_typesupport_introspection_c.h
+[2.315s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__rosidl_typesupport_introspection_c.h
+[2.316s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__rosidl_typesupport_introspection_c.h
+[2.316s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__rosidl_typesupport_introspection_c.h
+[2.316s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__type_support.c
+[2.316s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.317s] -- Installing: /home/unitree/go2slam/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_introspection_c.so
+[2.317s] -- Set non-toolchain portion of runtime path of "/home/unitree/go2slam/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_introspection_c.so" to ""
+[2.317s] -- Installing: /home/unitree/go2slam/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_c.so
+[2.317s] -- Set non-toolchain portion of runtime path of "/home/unitree/go2slam/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_c.so" to ""
+[2.317s] -- Up-to-date: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg
+[2.317s] -- Up-to-date: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg
+[2.318s] -- Up-to-date: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail
+[2.318s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__type_support.cpp
+[2.318s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__rosidl_typesupport_introspection_cpp.hpp
+[2.319s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__rosidl_typesupport_introspection_cpp.hpp
+[2.319s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__type_support.cpp
+[2.319s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__type_support.cpp
+[2.319s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__rosidl_typesupport_introspection_cpp.hpp
+[2.320s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__type_support.cpp
+[2.320s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__rosidl_typesupport_introspection_cpp.hpp
+[2.320s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__type_support.cpp
+[2.320s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__rosidl_typesupport_introspection_cpp.hpp
+[2.320s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__rosidl_typesupport_introspection_cpp.hpp
+[2.320s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__type_support.cpp
+[2.321s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__type_support.cpp
+[2.321s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__rosidl_typesupport_introspection_cpp.hpp
+[2.321s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__rosidl_typesupport_introspection_cpp.hpp
+[2.321s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__type_support.cpp
+[2.321s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__rosidl_typesupport_introspection_cpp.hpp
+[2.321s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__type_support.cpp
+[2.322s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__type_support.cpp
+[2.322s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__rosidl_typesupport_introspection_cpp.hpp
+[2.322s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__type_support.cpp
+[2.322s] -- Installing: /home/unitree/go2slam/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__rosidl_typesupport_introspection_cpp.hpp
+[2.322s] -- Installing: /home/unitree/go2slam/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_introspection_cpp.so
+[2.322s] -- Set non-toolchain portion of runtime path of "/home/unitree/go2slam/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_introspection_cpp.so" to ""
+[2.323s] -- Installing: /home/unitree/go2slam/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_cpp.so
+[2.323s] -- Set non-toolchain portion of runtime path of "/home/unitree/go2slam/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_cpp.so" to ""
+[2.323s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/environment/pythonpath.sh
+[2.323s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/environment/pythonpath.dsv
+[2.323s] -- Installing: /home/unitree/go2slam/install/unitree_hg/lib/python3.12/site-packages/unitree_hg-0.0.0-py3.12.egg-info
+[2.323s] -- Installing: /home/unitree/go2slam/install/unitree_hg/lib/python3.12/site-packages/unitree_hg-0.0.0-py3.12.egg-info/top_level.txt
+[2.324s] -- Installing: /home/unitree/go2slam/install/unitree_hg/lib/python3.12/site-packages/unitree_hg-0.0.0-py3.12.egg-info/PKG-INFO
+[2.324s] -- Installing: /home/unitree/go2slam/install/unitree_hg/lib/python3.12/site-packages/unitree_hg-0.0.0-py3.12.egg-info/dependency_links.txt
+[2.324s] -- Installing: /home/unitree/go2slam/install/unitree_hg/lib/python3.12/site-packages/unitree_hg-0.0.0-py3.12.egg-info/SOURCES.txt
+[2.324s] -- Installing: /home/unitree/go2slam/install/unitree_hg/lib/python3.12/site-packages/unitree_hg
+[2.324s] -- Installing: /home/unitree/go2slam/install/unitree_hg/lib/python3.12/site-packages/unitree_hg/_unitree_hg_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.324s] -- Installing: /home/unitree/go2slam/install/unitree_hg/lib/python3.12/site-packages/unitree_hg/unitree_hg_s__rosidl_typesupport_fastrtps_c.so
+[2.325s] -- Installing: /home/unitree/go2slam/install/unitree_hg/lib/python3.12/site-packages/unitree_hg/_unitree_hg_s.ep.rosidl_typesupport_c.c
+[2.325s] -- Installing: /home/unitree/go2slam/install/unitree_hg/lib/python3.12/site-packages/unitree_hg/_unitree_hg_s.ep.rosidl_typesupport_introspection_c.c
+[2.325s] -- Installing: /home/unitree/go2slam/install/unitree_hg/lib/python3.12/site-packages/unitree_hg/__init__.py
+[2.325s] -- Installing: /home/unitree/go2slam/install/unitree_hg/lib/python3.12/site-packages/unitree_hg/msg
+[2.325s] -- Installing: /home/unitree/go2slam/install/unitree_hg/lib/python3.12/site-packages/unitree_hg/msg/_motor_cmd_s.c
+[2.326s] -- Installing: /home/unitree/go2slam/install/unitree_hg/lib/python3.12/site-packages/unitree_hg/msg/_hand_state_s.c
+[2.326s] -- Installing: /home/unitree/go2slam/install/unitree_hg/lib/python3.12/site-packages/unitree_hg/msg/_press_sensor_state_s.c
+[2.326s] -- Installing: /home/unitree/go2slam/install/unitree_hg/lib/python3.12/site-packages/unitree_hg/msg/_hand_state.py
+[2.326s] -- Installing: /home/unitree/go2slam/install/unitree_hg/lib/python3.12/site-packages/unitree_hg/msg/_hand_cmd_s.c
+[2.326s] -- Installing: /home/unitree/go2slam/install/unitree_hg/lib/python3.12/site-packages/unitree_hg/msg/_low_cmd.py
+[2.326s] -- Installing: /home/unitree/go2slam/install/unitree_hg/lib/python3.12/site-packages/unitree_hg/msg/_hand_cmd.py
+[2.327s] -- Installing: /home/unitree/go2slam/install/unitree_hg/lib/python3.12/site-packages/unitree_hg/msg/_imu_state.py
+[2.327s] -- Installing: /home/unitree/go2slam/install/unitree_hg/lib/python3.12/site-packages/unitree_hg/msg/_low_state.py
+[2.327s] -- Installing: /home/unitree/go2slam/install/unitree_hg/lib/python3.12/site-packages/unitree_hg/msg/_press_sensor_state.py
+[2.327s] -- Installing: /home/unitree/go2slam/install/unitree_hg/lib/python3.12/site-packages/unitree_hg/msg/_motor_state.py
+[2.327s] -- Installing: /home/unitree/go2slam/install/unitree_hg/lib/python3.12/site-packages/unitree_hg/msg/_imu_state_s.c
+[2.327s] -- Installing: /home/unitree/go2slam/install/unitree_hg/lib/python3.12/site-packages/unitree_hg/msg/_low_state_s.c
+[2.328s] -- Installing: /home/unitree/go2slam/install/unitree_hg/lib/python3.12/site-packages/unitree_hg/msg/__init__.py
+[2.328s] -- Installing: /home/unitree/go2slam/install/unitree_hg/lib/python3.12/site-packages/unitree_hg/msg/_main_board_state_s.c
+[2.328s] -- Installing: /home/unitree/go2slam/install/unitree_hg/lib/python3.12/site-packages/unitree_hg/msg/_bms_state.py
+[2.328s] -- Installing: /home/unitree/go2slam/install/unitree_hg/lib/python3.12/site-packages/unitree_hg/msg/_bms_cmd.py
+[2.329s] -- Installing: /home/unitree/go2slam/install/unitree_hg/lib/python3.12/site-packages/unitree_hg/msg/_bms_state_s.c
+[2.329s] -- Installing: /home/unitree/go2slam/install/unitree_hg/lib/python3.12/site-packages/unitree_hg/msg/_bms_cmd_s.c
+[2.329s] -- Installing: /home/unitree/go2slam/install/unitree_hg/lib/python3.12/site-packages/unitree_hg/msg/_low_cmd_s.c
+[2.329s] -- Installing: /home/unitree/go2slam/install/unitree_hg/lib/python3.12/site-packages/unitree_hg/msg/_main_board_state.py
+[2.329s] -- Installing: /home/unitree/go2slam/install/unitree_hg/lib/python3.12/site-packages/unitree_hg/msg/_motor_cmd.py
+[2.329s] -- Installing: /home/unitree/go2slam/install/unitree_hg/lib/python3.12/site-packages/unitree_hg/msg/_motor_state_s.c
+[2.330s] -- Installing: /home/unitree/go2slam/install/unitree_hg/lib/python3.12/site-packages/unitree_hg/unitree_hg_s__rosidl_typesupport_c.so
+[2.330s] -- Installing: /home/unitree/go2slam/install/unitree_hg/lib/python3.12/site-packages/unitree_hg/unitree_hg_s__rosidl_typesupport_introspection_c.so
+[2.362s] Listing '/home/unitree/go2slam/install/unitree_hg/lib/python3.12/site-packages/unitree_hg'...
+[2.362s] Compiling '/home/unitree/go2slam/install/unitree_hg/lib/python3.12/site-packages/unitree_hg/__init__.py'...
+[2.363s] Listing '/home/unitree/go2slam/install/unitree_hg/lib/python3.12/site-packages/unitree_hg/msg'...
+[2.363s] Compiling '/home/unitree/go2slam/install/unitree_hg/lib/python3.12/site-packages/unitree_hg/msg/__init__.py'...
+[2.363s] Compiling '/home/unitree/go2slam/install/unitree_hg/lib/python3.12/site-packages/unitree_hg/msg/_bms_cmd.py'...
+[2.363s] Compiling '/home/unitree/go2slam/install/unitree_hg/lib/python3.12/site-packages/unitree_hg/msg/_bms_state.py'...
+[2.363s] Compiling '/home/unitree/go2slam/install/unitree_hg/lib/python3.12/site-packages/unitree_hg/msg/_hand_cmd.py'...
+[2.363s] Compiling '/home/unitree/go2slam/install/unitree_hg/lib/python3.12/site-packages/unitree_hg/msg/_hand_state.py'...
+[2.364s] Compiling '/home/unitree/go2slam/install/unitree_hg/lib/python3.12/site-packages/unitree_hg/msg/_imu_state.py'...
+[2.364s] Compiling '/home/unitree/go2slam/install/unitree_hg/lib/python3.12/site-packages/unitree_hg/msg/_low_cmd.py'...
+[2.364s] Compiling '/home/unitree/go2slam/install/unitree_hg/lib/python3.12/site-packages/unitree_hg/msg/_low_state.py'...
+[2.365s] Compiling '/home/unitree/go2slam/install/unitree_hg/lib/python3.12/site-packages/unitree_hg/msg/_main_board_state.py'...
+[2.365s] Compiling '/home/unitree/go2slam/install/unitree_hg/lib/python3.12/site-packages/unitree_hg/msg/_motor_cmd.py'...
+[2.365s] Compiling '/home/unitree/go2slam/install/unitree_hg/lib/python3.12/site-packages/unitree_hg/msg/_motor_state.py'...
+[2.365s] Compiling '/home/unitree/go2slam/install/unitree_hg/lib/python3.12/site-packages/unitree_hg/msg/_press_sensor_state.py'...
+[2.389s] -- Installing: /home/unitree/go2slam/install/unitree_hg/lib/python3.12/site-packages/unitree_hg/unitree_hg_s__rosidl_typesupport_fastrtps_c.so
+[2.389s] -- Set non-toolchain portion of runtime path of "/home/unitree/go2slam/install/unitree_hg/lib/python3.12/site-packages/unitree_hg/unitree_hg_s__rosidl_typesupport_fastrtps_c.so" to ""
+[2.389s] -- Installing: /home/unitree/go2slam/install/unitree_hg/lib/python3.12/site-packages/unitree_hg/unitree_hg_s__rosidl_typesupport_introspection_c.so
+[2.389s] -- Set non-toolchain portion of runtime path of "/home/unitree/go2slam/install/unitree_hg/lib/python3.12/site-packages/unitree_hg/unitree_hg_s__rosidl_typesupport_introspection_c.so" to ""
+[2.389s] -- Installing: /home/unitree/go2slam/install/unitree_hg/lib/python3.12/site-packages/unitree_hg/unitree_hg_s__rosidl_typesupport_c.so
+[2.390s] -- Set non-toolchain portion of runtime path of "/home/unitree/go2slam/install/unitree_hg/lib/python3.12/site-packages/unitree_hg/unitree_hg_s__rosidl_typesupport_c.so" to ""
+[2.390s] -- Installing: /home/unitree/go2slam/install/unitree_hg/lib/libunitree_hg__rosidl_generator_py.so
+[2.390s] -- Set non-toolchain portion of runtime path of "/home/unitree/go2slam/install/unitree_hg/lib/libunitree_hg__rosidl_generator_py.so" to ""
+[2.391s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/ament_index/resource_index/rust_packages/unitree_hg
+[2.392s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/rust
+[2.392s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/rust/build.rs
+[2.393s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/rust/src
+[2.393s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/rust/src/msg
+[2.394s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/rust/src/msg/rmw.rs
+[2.394s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/rust/src/msg.rs
+[2.397s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/rust/src/lib.rs
+[2.398s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/rust/Cargo.toml
+[2.402s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/msg/BmsCmd.idl
+[2.404s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/msg/BmsState.idl
+[2.405s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/msg/HandCmd.idl
+[2.409s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/msg/HandState.idl
+[2.409s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/msg/IMUState.idl
+[2.409s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/msg/LowCmd.idl
+[2.411s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/msg/LowState.idl
+[2.411s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/msg/MainBoardState.idl
+[2.412s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/msg/MotorCmd.idl
+[2.413s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/msg/MotorState.idl
+[2.414s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/msg/PressSensorState.idl
+[2.415s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/msg/BmsCmd.msg
+[2.416s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/msg/BmsState.msg
+[2.418s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/msg/HandCmd.msg
+[2.418s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/msg/HandState.msg
+[2.418s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/msg/IMUState.msg
+[2.419s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/msg/LowCmd.msg
+[2.419s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/msg/LowState.msg
+[2.419s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/msg/MainBoardState.msg
+[2.420s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/msg/MotorCmd.msg
+[2.421s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/msg/MotorState.msg
+[2.422s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/msg/PressSensorState.msg
+[2.423s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/msg/dds_connext
+[2.423s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/msg/dds_connext/MainBoardState_.idl
+[2.424s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/msg/dds_connext/PressSensorState_.idl
+[2.425s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/msg/dds_connext/MotorState_.idl
+[2.425s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/msg/dds_connext/BmsState_.idl
+[2.426s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/msg/dds_connext/LowState_.idl
+[2.427s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/msg/dds_connext/MotorCmd_.idl
+[2.427s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/msg/dds_connext/LowCmd_.idl
+[2.428s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/msg/dds_connext/HandState_.idl
+[2.429s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/msg/dds_connext/HandCmd_.idl
+[2.429s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/msg/dds_connext/IMUState_.idl
+[2.430s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/msg/dds_connext/BmsCmd_.idl
+[2.431s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/ament_index/resource_index/package_run_dependencies/unitree_hg
+[2.432s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/ament_index/resource_index/parent_prefix_path/unitree_hg
+[2.433s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/environment/ament_prefix_path.sh
+[2.433s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/environment/ament_prefix_path.dsv
+[2.434s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/environment/path.sh
+[2.435s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/environment/path.dsv
+[2.436s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/local_setup.bash
+[2.437s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/local_setup.sh
+[2.442s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/local_setup.zsh
+[2.443s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/local_setup.dsv
+[2.444s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/package.dsv
+[2.445s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/ament_index/resource_index/packages/unitree_hg
+[2.446s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/cmake/export_unitree_hg__rosidl_generator_cExport.cmake
+[2.446s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/cmake/export_unitree_hg__rosidl_generator_cExport-noconfig.cmake
+[2.447s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/cmake/export_unitree_hg__rosidl_typesupport_fastrtps_cExport.cmake
+[2.448s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/cmake/export_unitree_hg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.449s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/cmake/export_unitree_hg__rosidl_generator_cppExport.cmake
+[2.450s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/cmake/export_unitree_hg__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.451s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/cmake/export_unitree_hg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.454s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/cmake/unitree_hg__rosidl_typesupport_introspection_cExport.cmake
+[2.455s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/cmake/unitree_hg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.456s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/cmake/unitree_hg__rosidl_typesupport_cExport.cmake
+[2.456s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/cmake/unitree_hg__rosidl_typesupport_cExport-noconfig.cmake
+[2.456s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/cmake/unitree_hg__rosidl_typesupport_introspection_cppExport.cmake
+[2.456s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/cmake/unitree_hg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.457s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/cmake/unitree_hg__rosidl_typesupport_cppExport.cmake
+[2.457s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/cmake/unitree_hg__rosidl_typesupport_cppExport-noconfig.cmake
+[2.457s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/cmake/export_unitree_hg__rosidl_generator_pyExport.cmake
+[2.458s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/cmake/export_unitree_hg__rosidl_generator_pyExport-noconfig.cmake
+[2.458s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/cmake/rosidl_cmake-extras.cmake
+[2.458s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.462s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.462s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/cmake/ament_cmake_export_libraries-extras.cmake
+[2.462s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/cmake/ament_cmake_export_targets-extras.cmake
+[2.462s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.463s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.463s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/cmake/unitree_hgConfig.cmake
+[2.463s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/cmake/unitree_hgConfig-version.cmake
+[2.464s] -- Installing: /home/unitree/go2slam/install/unitree_hg/share/unitree_hg/package.xml
+[2.469s] Invoked command in '/home/unitree/go2slam/build/unitree_hg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/unitree/go2slam/build/unitree_hg

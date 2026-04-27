@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "unitree_api__rs",
+		"source" : "/home/unitree/go2slam/build/unitree_api/unitree_api__rs"
+	}
+}

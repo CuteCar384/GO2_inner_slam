@@ -1,0 +1,1 @@
+Invoking command in '/home/unitree/go2slam/build/unitree_go': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/unitree/go2slam/build/unitree_go -- -j6 -l6

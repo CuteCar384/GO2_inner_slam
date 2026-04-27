@@ -1,0 +1,18 @@
+{
+  "package_name": "unitree_api",
+  "output_dir": "/home/unitree/go2slam/build/unitree_api/rosidl_generator_type_description/unitree_api",
+  "idl_tuples": [
+    "/home/unitree/go2slam/build/unitree_api/rosidl_adapter/unitree_api:msg/Request.idl",
+    "/home/unitree/go2slam/build/unitree_api/rosidl_adapter/unitree_api:msg/RequestHeader.idl",
+    "/home/unitree/go2slam/build/unitree_api/rosidl_adapter/unitree_api:msg/RequestIdentity.idl",
+    "/home/unitree/go2slam/build/unitree_api/rosidl_adapter/unitree_api:msg/RequestLease.idl",
+    "/home/unitree/go2slam/build/unitree_api/rosidl_adapter/unitree_api:msg/RequestPolicy.idl",
+    "/home/unitree/go2slam/build/unitree_api/rosidl_adapter/unitree_api:msg/Response.idl",
+    "/home/unitree/go2slam/build/unitree_api/rosidl_adapter/unitree_api:msg/ResponseHeader.idl",
+    "/home/unitree/go2slam/build/unitree_api/rosidl_adapter/unitree_api:msg/ResponseStatus.idl"
+  ],
+  "include_paths": [
+    "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs",
+    "std_msgs:/opt/ros/jazzy/share/std_msgs"
+  ]
+}

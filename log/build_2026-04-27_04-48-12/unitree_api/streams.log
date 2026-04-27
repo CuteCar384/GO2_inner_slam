@@ -1,0 +1,134 @@
+[0.061s] Invoking command in '/home/unitree/go2slam/build/unitree_api': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/unitree/go2slam/build/unitree_api -- -j6 -l6
+[0.294s] [  1%] Generating DDS interfaces
+[0.305s] [  2%] Generating Rust code for ROS interfaces
+[0.356s] [  3%] Generating type hashes for ROS interfaces
+[0.377s] [  3%] Built target ament_cmake_python_copy_unitree_api
+[1.603s] running egg_info
+[1.619s] creating unitree_api.egg-info
+[1.749s] writing unitree_api.egg-info/PKG-INFO
+[1.750s] writing dependency_links to unitree_api.egg-info/dependency_links.txt
+[1.774s] writing top-level names to unitree_api.egg-info/top_level.txt
+[1.775s] writing manifest file 'unitree_api.egg-info/SOURCES.txt'
+[2.254s] reading manifest file 'unitree_api.egg-info/SOURCES.txt'
+[2.255s] writing manifest file 'unitree_api.egg-info/SOURCES.txt'
+[2.306s] [  3%] Built target unitree_api__rosidl_generator_type_description
+[2.312s] [  3%] Built target unitree_api__rs
+[2.368s] [  4%] Generating C code for ROS interfaces
+[2.390s] [  4%] Generating C++ code for ROS interfaces
+[2.806s] [  4%] Built target ament_cmake_python_build_unitree_api_egg
+[2.959s] [  4%] Built target unitree_api__dds_connext_idl
+[5.270s] [  4%] Built target unitree_api__cpp
+[6.378s] [  5%] Building C object CMakeFiles/unitree_api__rosidl_generator_c.dir/rosidl_generator_c/unitree_api/msg/detail/request__functions.c.o
+[6.395s] [  6%] Building C object CMakeFiles/unitree_api__rosidl_generator_c.dir/rosidl_generator_c/unitree_api/msg/detail/request__type_support.c.o
+[6.408s] [  7%] Building C object CMakeFiles/unitree_api__rosidl_generator_c.dir/rosidl_generator_c/unitree_api/msg/detail/request__description.c.o
+[6.484s] [  8%] Building C object CMakeFiles/unitree_api__rosidl_generator_c.dir/rosidl_generator_c/unitree_api/msg/detail/request_header__description.c.o
+[6.576s] [  9%] Building C object CMakeFiles/unitree_api__rosidl_generator_c.dir/rosidl_generator_c/unitree_api/msg/detail/request_header__type_support.c.o
+[6.620s] [ 10%] Building C object CMakeFiles/unitree_api__rosidl_generator_c.dir/rosidl_generator_c/unitree_api/msg/detail/request_identity__description.c.o
+[6.629s] [ 11%] Building C object CMakeFiles/unitree_api__rosidl_generator_c.dir/rosidl_generator_c/unitree_api/msg/detail/request_identity__functions.c.o
+[6.748s] [ 12%] Building C object CMakeFiles/unitree_api__rosidl_generator_c.dir/rosidl_generator_c/unitree_api/msg/detail/request_lease__description.c.o
+[6.817s] [ 13%] Building C object CMakeFiles/unitree_api__rosidl_generator_c.dir/rosidl_generator_c/unitree_api/msg/detail/request_identity__type_support.c.o
+[6.860s] [ 14%] Building C object CMakeFiles/unitree_api__rosidl_generator_c.dir/rosidl_generator_c/unitree_api/msg/detail/request_lease__functions.c.o
+[6.896s] [ 15%] Building C object CMakeFiles/unitree_api__rosidl_generator_c.dir/rosidl_generator_c/unitree_api/msg/detail/request_lease__type_support.c.o
+[6.932s] [ 16%] Building C object CMakeFiles/unitree_api__rosidl_generator_c.dir/rosidl_generator_c/unitree_api/msg/detail/request_header__functions.c.o
+[6.938s] [ 17%] Building C object CMakeFiles/unitree_api__rosidl_generator_c.dir/rosidl_generator_c/unitree_api/msg/detail/request_policy__description.c.o
+[7.020s] [ 17%] Building C object CMakeFiles/unitree_api__rosidl_generator_c.dir/rosidl_generator_c/unitree_api/msg/detail/request_policy__functions.c.o
+[7.177s] [ 18%] Building C object CMakeFiles/unitree_api__rosidl_generator_c.dir/rosidl_generator_c/unitree_api/msg/detail/request_policy__type_support.c.o
+[7.179s] [ 19%] Building C object CMakeFiles/unitree_api__rosidl_generator_c.dir/rosidl_generator_c/unitree_api/msg/detail/response__description.c.o
+[7.180s] [ 20%] Building C object CMakeFiles/unitree_api__rosidl_generator_c.dir/rosidl_generator_c/unitree_api/msg/detail/response__functions.c.o
+[7.281s] [ 21%] Building C object CMakeFiles/unitree_api__rosidl_generator_c.dir/rosidl_generator_c/unitree_api/msg/detail/response_header__description.c.o
+[7.308s] [ 22%] Building C object CMakeFiles/unitree_api__rosidl_generator_c.dir/rosidl_generator_c/unitree_api/msg/detail/response__type_support.c.o
+[7.364s] [ 23%] Building C object CMakeFiles/unitree_api__rosidl_generator_c.dir/rosidl_generator_c/unitree_api/msg/detail/response_header__functions.c.o
+[7.447s] [ 24%] Building C object CMakeFiles/unitree_api__rosidl_generator_c.dir/rosidl_generator_c/unitree_api/msg/detail/response_status__description.c.o
+[7.472s] [ 25%] Building C object CMakeFiles/unitree_api__rosidl_generator_c.dir/rosidl_generator_c/unitree_api/msg/detail/response_status__functions.c.o
+[7.473s] [ 26%] Building C object CMakeFiles/unitree_api__rosidl_generator_c.dir/rosidl_generator_c/unitree_api/msg/detail/response_header__type_support.c.o
+[7.614s] [ 27%] Building C object CMakeFiles/unitree_api__rosidl_generator_c.dir/rosidl_generator_c/unitree_api/msg/detail/response_status__type_support.c.o
+[7.750s] [ 28%] Linking C shared library libunitree_api__rosidl_generator_c.so
+[7.957s] [ 28%] Built target unitree_api__rosidl_generator_c
+[8.040s] [ 30%] Generating C type support for eProsima Fast-RTPS
+[8.042s] [ 30%] Generating C introspection for ROS interfaces
+[8.046s] [ 31%] Generating C++ type support for eProsima Fast-RTPS
+[8.064s] [ 32%] Generating C type support dispatch for ROS interfaces
+[9.832s] [ 33%] Building CXX object CMakeFiles/unitree_api__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_api/msg/request__type_support.cpp.o
+[10.140s] [ 34%] Building CXX object CMakeFiles/unitree_api__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_api/msg/request_header__type_support.cpp.o
+[10.426s] [ 35%] Building CXX object CMakeFiles/unitree_api__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_api/msg/request_identity__type_support.cpp.o
+[10.869s] [ 36%] Building CXX object CMakeFiles/unitree_api__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_api/msg/request_lease__type_support.cpp.o
+[11.133s] [ 37%] Building CXX object CMakeFiles/unitree_api__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_api/msg/request_policy__type_support.cpp.o
+[11.336s] [ 38%] Building CXX object CMakeFiles/unitree_api__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_api/msg/response__type_support.cpp.o
+[11.345s] [ 38%] Building CXX object CMakeFiles/unitree_api__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_api/msg/detail/dds_fastrtps/request__type_support.cpp.o
+[11.356s] [ 39%] Building C object CMakeFiles/unitree_api__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_api/msg/detail/request__type_support.c.o
+[11.415s] [ 40%] Building CXX object CMakeFiles/unitree_api__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_api/msg/detail/request__type_support_c.cpp.o
+[11.461s] [ 41%] Building CXX object CMakeFiles/unitree_api__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_api/msg/response_header__type_support.cpp.o
+[11.584s] [ 42%] Building C object CMakeFiles/unitree_api__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_api/msg/detail/request_header__type_support.c.o
+[11.661s] [ 43%] Building CXX object CMakeFiles/unitree_api__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_api/msg/response_status__type_support.cpp.o
+[11.765s] [ 44%] Building C object CMakeFiles/unitree_api__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_api/msg/detail/request_identity__type_support.c.o
+[11.912s] [ 45%] Linking CXX shared library libunitree_api__rosidl_typesupport_c.so
+[11.989s] [ 46%] Building C object CMakeFiles/unitree_api__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_api/msg/detail/request_lease__type_support.c.o
+[12.159s] [ 46%] Built target unitree_api__rosidl_typesupport_c
+[12.232s] [ 47%] Building C object CMakeFiles/unitree_api__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_api/msg/detail/request_policy__type_support.c.o
+[12.442s] [ 48%] Building C object CMakeFiles/unitree_api__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_api/msg/detail/response__type_support.c.o
+[12.621s] [ 49%] Building C object CMakeFiles/unitree_api__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_api/msg/detail/response_header__type_support.c.o
+[12.815s] [ 50%] Building C object CMakeFiles/unitree_api__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_api/msg/detail/response_status__type_support.c.o
+[12.983s] [ 50%] Linking C shared library libunitree_api__rosidl_typesupport_introspection_c.so
+[13.053s] [ 51%] Building CXX object CMakeFiles/unitree_api__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_api/msg/detail/dds_fastrtps/request_header__type_support.cpp.o
+[13.065s] [ 52%] Building CXX object CMakeFiles/unitree_api__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_api/msg/detail/request_header__type_support_c.cpp.o
+[13.160s] [ 52%] Built target unitree_api__rosidl_typesupport_introspection_c
+[14.249s] [ 53%] Building CXX object CMakeFiles/unitree_api__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_api/msg/detail/dds_fastrtps/request_identity__type_support.cpp.o
+[14.333s] [ 54%] Building CXX object CMakeFiles/unitree_api__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_api/msg/detail/request_lease__type_support_c.cpp.o
+[15.404s] [ 55%] Building CXX object CMakeFiles/unitree_api__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_api/msg/detail/dds_fastrtps/request_lease__type_support.cpp.o
+[15.492s] [ 56%] Building CXX object CMakeFiles/unitree_api__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_api/msg/detail/request_policy__type_support_c.cpp.o
+[16.556s] [ 57%] Building CXX object CMakeFiles/unitree_api__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_api/msg/detail/dds_fastrtps/request_policy__type_support.cpp.o
+[16.729s] [ 58%] Building CXX object CMakeFiles/unitree_api__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_api/msg/detail/response__type_support_c.cpp.o
+[17.655s] [ 59%] Building CXX object CMakeFiles/unitree_api__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_api/msg/detail/dds_fastrtps/response__type_support.cpp.o
+[17.893s] [ 60%] Building CXX object CMakeFiles/unitree_api__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_api/msg/detail/response_header__type_support_c.cpp.o
+[18.867s] [ 61%] Building CXX object CMakeFiles/unitree_api__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_api/msg/detail/dds_fastrtps/response_header__type_support.cpp.o
+[19.000s] [ 62%] Building CXX object CMakeFiles/unitree_api__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_api/msg/detail/response_status__type_support_c.cpp.o
+[19.972s] [ 63%] Building CXX object CMakeFiles/unitree_api__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_api/msg/detail/dds_fastrtps/response_status__type_support.cpp.o
+[20.003s] [ 64%] Building CXX object CMakeFiles/unitree_api__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_api/msg/detail/request_identity__type_support_c.cpp.o
+[21.120s] [ 65%] Linking CXX shared library libunitree_api__rosidl_typesupport_fastrtps_cpp.so
+[21.173s] [ 66%] Linking CXX shared library libunitree_api__rosidl_typesupport_fastrtps_c.so
+[21.345s] [ 66%] Built target unitree_api__rosidl_typesupport_fastrtps_cpp
+[21.364s] [ 66%] Built target unitree_api__rosidl_typesupport_fastrtps_c
+[21.388s] [ 67%] Generating C++ type support dispatch for ROS interfaces
+[22.194s] [ 68%] Building CXX object CMakeFiles/unitree_api__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_api/msg/request__type_support.cpp.o
+[22.912s] [ 69%] Building CXX object CMakeFiles/unitree_api__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_api/msg/request_policy__type_support.cpp.o
+[23.617s] [ 70%] Building CXX object CMakeFiles/unitree_api__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_api/msg/response__type_support.cpp.o
+[24.331s] [ 71%] Building CXX object CMakeFiles/unitree_api__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_api/msg/response_header__type_support.cpp.o
+[25.048s] [ 72%] Building CXX object CMakeFiles/unitree_api__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_api/msg/response_status__type_support.cpp.o
+[25.738s] [ 72%] Building CXX object CMakeFiles/unitree_api__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_api/msg/request_lease__type_support.cpp.o
+[26.433s] [ 73%] Building CXX object CMakeFiles/unitree_api__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_api/msg/request_identity__type_support.cpp.o
+[27.135s] [ 74%] Building CXX object CMakeFiles/unitree_api__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_api/msg/request_header__type_support.cpp.o
+[27.818s] [ 75%] Linking CXX shared library libunitree_api__rosidl_typesupport_cpp.so
+[27.908s] [ 75%] Built target unitree_api__rosidl_typesupport_cpp
+[27.932s] [ 76%] Generating C++ introspection for ROS interfaces
+[29.004s] [ 77%] Building CXX object CMakeFiles/unitree_api__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_api/msg/detail/request__type_support.cpp.o
+[29.798s] [ 78%] Building CXX object CMakeFiles/unitree_api__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_api/msg/detail/response__type_support.cpp.o
+[30.606s] [ 79%] Building CXX object CMakeFiles/unitree_api__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_api/msg/detail/response_header__type_support.cpp.o
+[31.330s] [ 80%] Building CXX object CMakeFiles/unitree_api__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_api/msg/detail/response_status__type_support.cpp.o
+[32.047s] [ 81%] Building CXX object CMakeFiles/unitree_api__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_api/msg/detail/request_policy__type_support.cpp.o
+[32.781s] [ 82%] Building CXX object CMakeFiles/unitree_api__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_api/msg/detail/request_lease__type_support.cpp.o
+[33.526s] [ 83%] Building CXX object CMakeFiles/unitree_api__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_api/msg/detail/request_identity__type_support.cpp.o
+[34.223s] [ 84%] Building CXX object CMakeFiles/unitree_api__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_api/msg/detail/request_header__type_support.cpp.o
+[34.938s] [ 85%] Linking CXX shared library libunitree_api__rosidl_typesupport_introspection_cpp.so
+[35.103s] [ 85%] Built target unitree_api__rosidl_typesupport_introspection_cpp
+[35.151s] [ 85%] Built target unitree_api
+[35.198s] [ 86%] Generating Python code for ROS interfaces
+[36.964s] [ 86%] Built target unitree_api__py
+[37.016s] [ 87%] Building C object CMakeFiles/unitree_api__rosidl_generator_py.dir/rosidl_generator_py/unitree_api/msg/_request_s.c.o
+[37.349s] [ 88%] Building C object CMakeFiles/unitree_api__rosidl_generator_py.dir/rosidl_generator_py/unitree_api/msg/_response_s.c.o
+[37.663s] [ 88%] Building C object CMakeFiles/unitree_api__rosidl_generator_py.dir/rosidl_generator_py/unitree_api/msg/_response_header_s.c.o
+[37.945s] [ 89%] Building C object CMakeFiles/unitree_api__rosidl_generator_py.dir/rosidl_generator_py/unitree_api/msg/_response_status_s.c.o
+[38.224s] [ 90%] Building C object CMakeFiles/unitree_api__rosidl_generator_py.dir/rosidl_generator_py/unitree_api/msg/_request_policy_s.c.o
+[38.498s] [ 91%] Building C object CMakeFiles/unitree_api__rosidl_generator_py.dir/rosidl_generator_py/unitree_api/msg/_request_lease_s.c.o
+[38.766s] [ 92%] Building C object CMakeFiles/unitree_api__rosidl_generator_py.dir/rosidl_generator_py/unitree_api/msg/_request_identity_s.c.o
+[39.044s] [ 93%] Building C object CMakeFiles/unitree_api__rosidl_generator_py.dir/rosidl_generator_py/unitree_api/msg/_request_header_s.c.o
+[39.327s] [ 94%] Linking C shared library libunitree_api__rosidl_generator_py.so
+[39.429s] [ 94%] Built target unitree_api__rosidl_generator_py
+[39.480s] [ 95%] Building C object CMakeFiles/unitree_api_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/unitree_api/_unitree_api_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[39.764s] [ 96%] Linking C shared module rosidl_generator_py/unitree_api/unitree_api_s__rosidl_typesupport_fastrtps_c.so
+[39.837s] [ 96%] Built target unitree_api_s__rosidl_typesupport_fastrtps_c
+[39.888s] [ 97%] Building C object CMakeFiles/unitree_api_s__rosidl_typesupport_c.dir/rosidl_generator_py/unitree_api/_unitree_api_s.ep.rosidl_typesupport_c.c.o
+[40.146s] [ 98%] Linking C shared module rosidl_generator_py/unitree_api/unitree_api_s__rosidl_typesupport_c.so
+[40.220s] [ 98%] Built target unitree_api_s__rosidl_typesupport_c
+[40.269s] [ 99%] Building C object CMakeFiles/unitree_api_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/unitree_api/_unitree_api_s.ep.rosidl_typesupport_introspection_c.c.o
+[40.551s] [100%] Linking C shared module rosidl_generator_py/unitree_api/unitree_api_s__rosidl_typesupport_introspection_c.so
+[40.627s] [100%] Built target unitree_api_s__rosidl_typesupport_introspection_c

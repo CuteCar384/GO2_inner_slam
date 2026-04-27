@@ -1,0 +1,164 @@
+[0.146s] Invoking command in '/home/unitree/go2slam/build/unitree_hg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/unitree/go2slam/build/unitree_hg -- -j6 -l6
+[0.545s] [  1%] Generating DDS interfaces
+[0.602s] [  2%] Generating Rust code for ROS interfaces
+[0.626s] [  3%] Generating type hashes for ROS interfaces
+[0.779s] [  3%] Built target ament_cmake_python_copy_unitree_hg
+[2.502s] running egg_info
+[2.528s] creating unitree_hg.egg-info
+[2.646s] writing unitree_hg.egg-info/PKG-INFO
+[2.664s] writing dependency_links to unitree_hg.egg-info/dependency_links.txt
+[2.665s] writing top-level names to unitree_hg.egg-info/top_level.txt
+[2.666s] writing manifest file 'unitree_hg.egg-info/SOURCES.txt'
+[2.952s] reading manifest file 'unitree_hg.egg-info/SOURCES.txt'
+[2.958s] writing manifest file 'unitree_hg.egg-info/SOURCES.txt'
+[3.150s] [  3%] Built target ament_cmake_python_build_unitree_hg_egg
+[3.571s] [  3%] Built target unitree_hg__rosidl_generator_type_description
+[3.684s] [  3%] Generating C code for ROS interfaces
+[3.722s] [  3%] Generating C++ code for ROS interfaces
+[4.319s] [  3%] Built target unitree_hg__rs
+[4.357s] [  3%] Built target unitree_hg__dds_connext_idl
+[8.187s] [  3%] Built target unitree_hg__cpp
+[8.773s] [  4%] Building C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/bms_cmd__description.c.o
+[8.786s] [  5%] Building C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/bms_cmd__functions.c.o
+[8.813s] [  6%] Building C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/bms_cmd__type_support.c.o
+[8.874s] [  6%] Building C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/bms_state__description.c.o
+[8.938s] [  7%] Building C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/bms_state__type_support.c.o
+[9.015s] [  8%] Building C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/hand_cmd__description.c.o
+[9.142s] [  8%] Building C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/hand_cmd__functions.c.o
+[9.163s] [  9%] Building C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/hand_cmd__type_support.c.o
+[9.169s] [ 10%] Building C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/hand_state__description.c.o
+[9.356s] [ 11%] Building C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/hand_state__functions.c.o
+[9.381s] [ 11%] Building C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/hand_state__type_support.c.o
+[9.431s] [ 12%] Building C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/imu_state__functions.c.o
+[9.436s] [ 13%] Building C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/bms_state__functions.c.o
+[9.493s] [ 13%] Building C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/imu_state__type_support.c.o
+[9.495s] [ 14%] Building C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/imu_state__description.c.o
+[9.633s] [ 15%] Building C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/low_cmd__description.c.o
+[9.654s] [ 16%] Building C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/low_cmd__functions.c.o
+[9.672s] [ 17%] Building C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/low_cmd__type_support.c.o
+[9.739s] [ 17%] Building C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/low_state__description.c.o
+[9.860s] [ 18%] Building C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/low_state__functions.c.o
+[9.896s] [ 19%] Building C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/low_state__type_support.c.o
+[9.911s] [ 20%] Building C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/main_board_state__description.c.o
+[9.927s] [ 20%] Building C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/main_board_state__functions.c.o
+[9.952s] [ 21%] Building C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/main_board_state__type_support.c.o
+[10.038s] [ 22%] Building C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/motor_cmd__description.c.o
+[10.200s] [ 23%] Building C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/motor_cmd__functions.c.o
+[10.204s] [ 23%] Building C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/motor_cmd__type_support.c.o
+[10.217s] [ 24%] Building C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/motor_state__description.c.o
+[10.359s] [ 25%] Building C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/motor_state__functions.c.o
+[10.635s] [ 26%] Building C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/press_sensor_state__type_support.c.o
+[10.771s] [ 27%] Building C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/press_sensor_state__functions.c.o
+[10.926s] [ 27%] Building C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/press_sensor_state__description.c.o
+[11.119s] [ 28%] Building C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/motor_state__type_support.c.o
+[11.322s] [ 28%] Linking C shared library libunitree_hg__rosidl_generator_c.so
+[11.586s] [ 28%] Built target unitree_hg__rosidl_generator_c
+[11.666s] [ 29%] Generating C type support for eProsima Fast-RTPS
+[14.479s] [ 30%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_hg/msg/detail/bms_cmd__type_support_c.cpp.o
+[15.648s] [ 30%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_hg/msg/detail/bms_state__type_support_c.cpp.o
+[16.723s] [ 31%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_hg/msg/detail/hand_cmd__type_support_c.cpp.o
+[17.735s] [ 32%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_hg/msg/detail/hand_state__type_support_c.cpp.o
+[18.897s] [ 33%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_hg/msg/detail/imu_state__type_support_c.cpp.o
+[20.064s] [ 33%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_hg/msg/detail/low_cmd__type_support_c.cpp.o
+[21.198s] [ 34%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_hg/msg/detail/low_state__type_support_c.cpp.o
+[22.297s] [ 35%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_hg/msg/detail/main_board_state__type_support_c.cpp.o
+[23.301s] [ 35%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_hg/msg/detail/motor_cmd__type_support_c.cpp.o
+[24.373s] [ 36%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_hg/msg/detail/motor_state__type_support_c.cpp.o
+[25.442s] [ 37%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_hg/msg/detail/press_sensor_state__type_support_c.cpp.o
+[26.472s] [ 38%] Linking CXX shared library libunitree_hg__rosidl_typesupport_fastrtps_c.so
+[26.582s] [ 38%] Built target unitree_hg__rosidl_typesupport_fastrtps_c
+[26.606s] [ 38%] Generating C++ type support dispatch for ROS interfaces
+[27.871s] [ 39%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_hg/msg/bms_cmd__type_support.cpp.o
+[28.582s] [ 40%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_hg/msg/bms_state__type_support.cpp.o
+[29.294s] [ 41%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_hg/msg/hand_cmd__type_support.cpp.o
+[29.990s] [ 41%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_hg/msg/hand_state__type_support.cpp.o
+[30.705s] [ 42%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_hg/msg/imu_state__type_support.cpp.o
+[31.414s] [ 43%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_hg/msg/low_cmd__type_support.cpp.o
+[32.117s] [ 43%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_hg/msg/low_state__type_support.cpp.o
+[32.935s] [ 44%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_hg/msg/main_board_state__type_support.cpp.o
+[33.661s] [ 45%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_hg/msg/motor_cmd__type_support.cpp.o
+[34.362s] [ 46%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_hg/msg/motor_state__type_support.cpp.o
+[35.087s] [ 46%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_hg/msg/press_sensor_state__type_support.cpp.o
+[35.773s] [ 47%] Linking CXX shared library libunitree_hg__rosidl_typesupport_cpp.so
+[35.864s] [ 47%] Built target unitree_hg__rosidl_typesupport_cpp
+[35.892s] [ 48%] Generating C++ introspection for ROS interfaces
+[37.593s] [ 48%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/bms_cmd__type_support.cpp.o
+[38.298s] [ 49%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/hand_cmd__type_support.cpp.o
+[39.098s] [ 49%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/hand_state__type_support.cpp.o
+[40.030s] [ 50%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/imu_state__type_support.cpp.o
+[40.778s] [ 51%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/low_cmd__type_support.cpp.o
+[41.520s] [ 52%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/low_state__type_support.cpp.o
+[42.319s] [ 52%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/main_board_state__type_support.cpp.o
+[43.076s] [ 53%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/motor_cmd__type_support.cpp.o
+[43.776s] [ 54%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/motor_state__type_support.cpp.o
+[44.506s] [ 55%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/press_sensor_state__type_support.cpp.o
+[45.238s] [ 56%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/bms_state__type_support.cpp.o
+[46.001s] [ 56%] Linking CXX shared library libunitree_hg__rosidl_typesupport_introspection_cpp.so
+[46.181s] [ 56%] Built target unitree_hg__rosidl_typesupport_introspection_cpp
+[46.207s] [ 58%] Generating C type support dispatch for ROS interfaces
+[46.208s] [ 58%] Generating C introspection for ROS interfaces
+[47.394s] [ 59%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_hg/msg/bms_cmd__type_support.cpp.o
+[47.394s] [ 59%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_hg/msg/bms_state__type_support.cpp.o
+[47.505s] [ 60%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_hg/msg/hand_state__type_support.cpp.o
+[47.511s] [ 60%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_hg/msg/imu_state__type_support.cpp.o
+[47.616s] [ 61%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_hg/msg/low_cmd__type_support.cpp.o
+[47.621s] [ 62%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_hg/msg/hand_cmd__type_support.cpp.o
+[47.741s] [ 63%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_hg/msg/low_state__type_support.cpp.o
+[47.798s] [ 64%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_hg/msg/main_board_state__type_support.cpp.o
+[47.862s] [ 64%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_hg/msg/motor_cmd__type_support.cpp.o
+[47.911s] [ 65%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_hg/msg/motor_state__type_support.cpp.o
+[47.971s] [ 66%] Building C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_hg/msg/detail/bms_cmd__type_support.c.o
+[47.979s] [ 66%] Building C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_hg/msg/detail/bms_state__type_support.c.o
+[47.999s] [ 67%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_hg/msg/press_sensor_state__type_support.cpp.o
+[48.081s] [ 68%] Building C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_hg/msg/detail/hand_state__type_support.c.o
+[48.089s] [ 69%] Building C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_hg/msg/detail/imu_state__type_support.c.o
+[48.140s] [ 70%] Linking CXX shared library libunitree_hg__rosidl_typesupport_c.so
+[48.198s] [ 70%] Building C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_hg/msg/detail/low_cmd__type_support.c.o
+[48.218s] [ 71%] Building C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_hg/msg/detail/low_state__type_support.c.o
+[48.251s] [ 71%] Built target unitree_hg__rosidl_typesupport_c
+[48.286s] [ 71%] Generating C++ type support for eProsima Fast-RTPS
+[48.316s] [ 72%] Building C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_hg/msg/detail/motor_cmd__type_support.c.o
+[48.335s] [ 72%] Building C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_hg/msg/detail/motor_state__type_support.c.o
+[48.402s] [ 73%] Building C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_hg/msg/detail/press_sensor_state__type_support.c.o
+[48.445s] [ 74%] Building C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_hg/msg/detail/main_board_state__type_support.c.o
+[48.495s] [ 75%] Building C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_hg/msg/detail/hand_cmd__type_support.c.o
+[48.588s] [ 76%] Linking C shared library libunitree_hg__rosidl_typesupport_introspection_c.so
+[48.662s] [ 76%] Built target unitree_hg__rosidl_typesupport_introspection_c
+[50.379s] [ 77%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_hg/msg/detail/dds_fastrtps/bms_cmd__type_support.cpp.o
+[50.379s] [ 78%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_hg/msg/detail/dds_fastrtps/bms_state__type_support.cpp.o
+[50.402s] [ 79%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_hg/msg/detail/dds_fastrtps/low_cmd__type_support.cpp.o
+[51.456s] [ 80%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_hg/msg/detail/dds_fastrtps/imu_state__type_support.cpp.o
+[51.555s] [ 80%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_hg/msg/detail/dds_fastrtps/hand_state__type_support.cpp.o
+[51.635s] [ 81%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_hg/msg/detail/dds_fastrtps/low_state__type_support.cpp.o
+[51.665s] [ 81%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_hg/msg/detail/dds_fastrtps/main_board_state__type_support.cpp.o
+[52.731s] [ 82%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_hg/msg/detail/dds_fastrtps/motor_cmd__type_support.cpp.o
+[52.893s] [ 83%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_hg/msg/detail/dds_fastrtps/hand_cmd__type_support.cpp.o
+[53.229s] [ 84%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_hg/msg/detail/dds_fastrtps/motor_state__type_support.cpp.o
+[53.266s] [ 85%] Building CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_hg/msg/detail/dds_fastrtps/press_sensor_state__type_support.cpp.o
+[54.692s] [ 85%] Linking CXX shared library libunitree_hg__rosidl_typesupport_fastrtps_cpp.so
+[54.862s] [ 85%] Built target unitree_hg__rosidl_typesupport_fastrtps_cpp
+[54.908s] [ 85%] Built target unitree_hg
+[54.953s] [ 86%] Generating Python code for ROS interfaces
+[57.954s] [ 86%] Built target unitree_hg__py
+[58.046s] [ 87%] Building C object CMakeFiles/unitree_hg__rosidl_generator_py.dir/rosidl_generator_py/unitree_hg/msg/_bms_cmd_s.c.o
+[58.064s] [ 88%] Building C object CMakeFiles/unitree_hg__rosidl_generator_py.dir/rosidl_generator_py/unitree_hg/msg/_bms_state_s.c.o
+[58.068s] [ 89%] Building C object CMakeFiles/unitree_hg__rosidl_generator_py.dir/rosidl_generator_py/unitree_hg/msg/_hand_cmd_s.c.o
+[58.526s] [ 90%] Building C object CMakeFiles/unitree_hg__rosidl_generator_py.dir/rosidl_generator_py/unitree_hg/msg/_low_cmd_s.c.o
+[58.690s] [ 91%] Building C object CMakeFiles/unitree_hg__rosidl_generator_py.dir/rosidl_generator_py/unitree_hg/msg/_low_state_s.c.o
+[58.754s] [ 91%] Building C object CMakeFiles/unitree_hg__rosidl_generator_py.dir/rosidl_generator_py/unitree_hg/msg/_main_board_state_s.c.o
+[58.894s] [ 92%] Building C object CMakeFiles/unitree_hg__rosidl_generator_py.dir/rosidl_generator_py/unitree_hg/msg/_motor_cmd_s.c.o
+[59.201s] [ 93%] Building C object CMakeFiles/unitree_hg__rosidl_generator_py.dir/rosidl_generator_py/unitree_hg/msg/_motor_state_s.c.o
+[59.260s] [ 94%] Building C object CMakeFiles/unitree_hg__rosidl_generator_py.dir/rosidl_generator_py/unitree_hg/msg/_press_sensor_state_s.c.o
+[59.276s] [ 95%] Building C object CMakeFiles/unitree_hg__rosidl_generator_py.dir/rosidl_generator_py/unitree_hg/msg/_imu_state_s.c.o
+[59.627s] [ 95%] Building C object CMakeFiles/unitree_hg__rosidl_generator_py.dir/rosidl_generator_py/unitree_hg/msg/_hand_state_s.c.o
+[60.075s] [ 95%] Linking C shared library libunitree_hg__rosidl_generator_py.so
+[60.203s] [ 95%] Built target unitree_hg__rosidl_generator_py
+[60.300s] [ 95%] Building C object CMakeFiles/unitree_hg_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/unitree_hg/_unitree_hg_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[60.326s] [ 96%] Building C object CMakeFiles/unitree_hg_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/unitree_hg/_unitree_hg_s.ep.rosidl_typesupport_introspection_c.c.o
+[60.339s] [ 97%] Building C object CMakeFiles/unitree_hg_s__rosidl_typesupport_c.dir/rosidl_generator_py/unitree_hg/_unitree_hg_s.ep.rosidl_typesupport_c.c.o
+[60.746s] [ 98%] Linking C shared module rosidl_generator_py/unitree_hg/unitree_hg_s__rosidl_typesupport_fastrtps_c.so
+[60.837s] [ 99%] Linking C shared module rosidl_generator_py/unitree_hg/unitree_hg_s__rosidl_typesupport_introspection_c.so
+[60.861s] [ 99%] Built target unitree_hg_s__rosidl_typesupport_fastrtps_c
+[60.864s] [100%] Linking C shared module rosidl_generator_py/unitree_hg/unitree_hg_s__rosidl_typesupport_c.so
+[60.940s] [100%] Built target unitree_hg_s__rosidl_typesupport_introspection_c
+[60.941s] [100%] Built target unitree_hg_s__rosidl_typesupport_c

@@ -1,0 +1,49 @@
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 5.3.7 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+-- Found nav_msgs: 5.3.7 (/opt/ros/jazzy/share/nav_msgs/cmake)
+-- Found tf2: 0.36.20 (/opt/ros/jazzy/share/tf2/cmake)
+-- Found tf2_ros: 0.36.20 (/opt/ros/jazzy/share/tf2_ros/cmake)
+-- Found pcl_ros: 2.6.4 (/opt/ros/jazzy/share/pcl_ros/cmake)
+-- Found flann version 1.9.2
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) 
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Found Qhull version 8.0.2
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Configuring done (7.4s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/unitree/go2slam/build/go2_mapping_only
+[100%] Built target go2_map_builder
+-- Install configuration: ""
+-- Up-to-date: /home/unitree/go2slam/install/go2_mapping_only/lib/go2_mapping_only/go2_map_builder
+-- Up-to-date: /home/unitree/go2slam/install/go2_mapping_only/share/go2_mapping_only/launch
+-- Installing: /home/unitree/go2slam/install/go2_mapping_only/share/go2_mapping_only/launch/mapping_only.launch.py
+-- Up-to-date: /home/unitree/go2slam/install/go2_mapping_only/share/go2_mapping_only/rviz_cfg
+-- Installing: /home/unitree/go2slam/install/go2_mapping_only/share/go2_mapping_only/rviz_cfg/mapping_only.rviz
+-- Up-to-date: /home/unitree/go2slam/install/go2_mapping_only/share/ament_index/resource_index/package_run_dependencies/go2_mapping_only
+-- Installing: /home/unitree/go2slam/install/go2_mapping_only/share/ament_index/resource_index/parent_prefix_path/go2_mapping_only
+-- Installing: /home/unitree/go2slam/install/go2_mapping_only/share/go2_mapping_only/environment/ament_prefix_path.sh
+-- Up-to-date: /home/unitree/go2slam/install/go2_mapping_only/share/go2_mapping_only/environment/ament_prefix_path.dsv
+-- Installing: /home/unitree/go2slam/install/go2_mapping_only/share/go2_mapping_only/environment/path.sh
+-- Up-to-date: /home/unitree/go2slam/install/go2_mapping_only/share/go2_mapping_only/environment/path.dsv
+-- Installing: /home/unitree/go2slam/install/go2_mapping_only/share/go2_mapping_only/local_setup.bash
+-- Installing: /home/unitree/go2slam/install/go2_mapping_only/share/go2_mapping_only/local_setup.sh
+-- Installing: /home/unitree/go2slam/install/go2_mapping_only/share/go2_mapping_only/local_setup.zsh
+-- Installing: /home/unitree/go2slam/install/go2_mapping_only/share/go2_mapping_only/local_setup.dsv
+-- Installing: /home/unitree/go2slam/install/go2_mapping_only/share/go2_mapping_only/package.dsv
+-- Up-to-date: /home/unitree/go2slam/install/go2_mapping_only/share/ament_index/resource_index/packages/go2_mapping_only
+-- Up-to-date: /home/unitree/go2slam/install/go2_mapping_only/share/go2_mapping_only/cmake/go2_mapping_onlyConfig.cmake
+-- Up-to-date: /home/unitree/go2slam/install/go2_mapping_only/share/go2_mapping_only/cmake/go2_mapping_onlyConfig-version.cmake
+-- Installing: /home/unitree/go2slam/install/go2_mapping_only/share/go2_mapping_only/package.xml

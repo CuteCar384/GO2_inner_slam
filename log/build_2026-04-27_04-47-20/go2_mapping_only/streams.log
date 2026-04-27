@@ -1,0 +1,34 @@
+[0.068s] Invoking command in '/home/unitree/go2slam/build/go2_mapping_only': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/unitree/unitree_ros2/install/unitree_hg:/home/unitree/unitree_ros2/install/unitree_go:/home/unitree/unitree_ros2/install/unitree_api:/opt/ros/jazzy /usr/bin/cmake --build /home/unitree/go2slam/build/go2_mapping_only -- -j6 -l6
+[0.212s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.934s] -- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.021s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.051s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.117s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.144s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.353s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.353s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.535s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.742s] -- Found sensor_msgs: 5.3.7 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.869s] -- Found nav_msgs: 5.3.7 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[1.927s] -- Found tf2: 0.36.20 (/opt/ros/jazzy/share/tf2/cmake)
+[1.937s] -- Found tf2_ros: 0.36.20 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[2.244s] [31mCMake Error at CMakeLists.txt:15 (find_package):
+[2.244s]   By not providing "Findpcl_ros.cmake" in CMAKE_MODULE_PATH this project has
+[2.244s]   asked CMake to find a package configuration file provided by "pcl_ros", but
+[2.244s]   CMake did not find one.
+[2.245s] 
+[2.245s]   Could not find a package configuration file provided by "pcl_ros" with any
+[2.245s]   of the following names:
+[2.245s] 
+[2.245s]     pcl_rosConfig.cmake
+[2.245s]     pcl_ros-config.cmake
+[2.245s] 
+[2.246s]   Add the installation prefix of "pcl_ros" to CMAKE_PREFIX_PATH or set
+[2.246s]   "pcl_ros_DIR" to a directory containing one of the above files.  If
+[2.246s]   "pcl_ros" provides a separate development package or SDK, be sure it has
+[2.246s]   been installed.
+[2.246s] 
+[2.246s] [0m
+[2.246s] -- Configuring incomplete, errors occurred!
+[2.275s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[2.280s] Invoked command in '/home/unitree/go2slam/build/go2_mapping_only' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/unitree/unitree_ros2/install/unitree_hg:/home/unitree/unitree_ros2/install/unitree_go:/home/unitree/unitree_ros2/install/unitree_api:/opt/ros/jazzy /usr/bin/cmake --build /home/unitree/go2slam/build/go2_mapping_only -- -j6 -l6

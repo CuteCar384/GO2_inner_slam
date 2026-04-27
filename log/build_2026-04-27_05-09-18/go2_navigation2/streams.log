@@ -1,0 +1,121 @@
+[0.032s] Invoking command in '/home/unitree/go2slam/build/go2_navigation2': AMENT_PREFIX_PATH=/home/unitree/go2slam/install/go2_core:/home/unitree/go2slam/install/go2_driver:/home/unitree/go2slam/install/go2_twist_bridge:/home/unitree/go2slam/install/unitree_go:/home/unitree/go2slam/install/unitree_api:/home/unitree/go2slam/install/go2_slam:/home/unitree/go2slam/install/go2_perception:/home/unitree/go2slam/install/go2_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/unitree/go2slam/install/go2_core:/home/unitree/go2slam/install/go2_driver:/home/unitree/go2slam/install/go2_twist_bridge:/home/unitree/go2slam/install/unitree_go:/home/unitree/go2slam/install/unitree_api:/home/unitree/go2slam/install/go2_slam:/home/unitree/go2slam/install/go2_perception:/home/unitree/go2slam/install/go2_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/unitree/go2slam/install/unitree_go/lib:/home/unitree/go2slam/install/unitree_api/lib:/home/unitree/go2slam/install/go2_perception/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/unitree/go2slam/install/unitree_go/lib/python3.12/site-packages:/home/unitree/go2slam/install/unitree_api/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/unitree/go2slam/build/go2_navigation2 -- -j6 -l6
+[0.096s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.489s] -- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.548s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.566s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.590s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.618s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.732s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.735s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.864s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.979s] -- Found rclcpp_lifecycle: 28.1.18 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[1.036s] -- Found unitree_go: 0.0.0 (/home/unitree/unitree_ros2/install/unitree_go/share/unitree_go/cmake)
+[1.123s] -- Found unitree_api: 0.0.0 (/home/unitree/unitree_ros2/install/unitree_api/share/unitree_api/cmake)
+[1.150s] -- Found nav_msgs: 5.3.7 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[1.194s] -- Found sensor_msgs: 5.3.7 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.234s] -- Found nav2_core: 1.3.11 (/opt/ros/jazzy/share/nav2_core/cmake)
+[1.637s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.640s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.946s] -- Found pcl_conversions: 2.6.4 (/opt/ros/jazzy/share/pcl_conversions/cmake)
+[2.029s] CMake Warning (dev) at /usr/lib/aarch64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):
+[2.029s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[2.029s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[2.030s]   cmake_policy command to set the policy and suppress this warning.
+[2.030s] 
+[2.030s]   CMake variable FLANN_ROOT is set to:
+[2.030s] 
+[2.030s]     /usr
+[2.030s] 
+[2.031s]   For compatibility, find_package is ignoring the variable, but code in a
+[2.031s]   .cmake module might still use it.
+[2.031s] Call Stack (most recent call first):
+[2.031s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)
+[2.031s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)
+[2.031s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)
+[2.032s]   /opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[2.032s]   /opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[2.032s]   CMakeLists.txt:19 (find_package)
+[2.032s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.032s] 
+[2.032s] -- Found flann version 1.9.2
+[2.878s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.891s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.898s] -- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) 
+[3.772s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.784s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[4.560s] -- Found Qhull version 8.0.2
+[5.377s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[6.193s] CMake Warning (dev) at CMakeLists.txt:21 (find_package):
+[6.193s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[6.194s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[6.194s]   command to set the policy and suppress this warning.
+[6.194s] 
+[6.194s]   CMake variable PCL_ROOT is set to:
+[6.194s] 
+[6.194s]     /usr
+[6.195s] 
+[6.195s]   For compatibility, CMake is ignoring the variable.
+[6.195s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[6.195s] 
+[6.301s] -- Found ament_cmake_gtest: 2.5.6 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[6.302s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[6.510s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[6.534s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.535s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/unitree/go2slam/src/go2_navigation2/include>
+[6.536s] -- Configured cppcheck exclude dirs and/or files: 
+[6.537s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.537s] -- Configured 'flake8' exclude dirs and/or files: 
+[6.538s] -- Added test 'lint_cmake' to check CMake code style
+[6.539s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[6.542s] -- Added test 'uncrustify' to check C / C++ code style
+[6.542s] -- Configured uncrustify additional arguments: 
+[6.543s] -- Added test 'xmllint' to check XML markup files
+[6.545s] -- Configuring done (6.5s)
+[6.848s] -- Generating done (0.2s)
+[6.885s] -- Build files have been written to: /home/unitree/go2slam/build/go2_navigation2
+[7.049s] [  6%] Building CXX object CMakeFiles/navigation.dir/src/navigation.cpp.o
+[7.097s] [ 18%] Built target initial_pose_spin_relocalizer
+[7.108s] [ 31%] Built target front_align_cmd_vel_gate
+[7.119s] [ 43%] Built target pcd_initial_pose_publisher
+[7.119s] [ 56%] Built target climb_stairs_task
+[7.133s] [ 68%] Built target gtest_main
+[7.164s] [ 75%] Linking CXX executable navigation
+[7.177s] [ 87%] Built target gtest
+[7.254s] [100%] Built target test_pcd_initial_pose_utils
+[7.528s] [100%] Built target navigation
+[7.553s] Invoked command in '/home/unitree/go2slam/build/go2_navigation2' returned '0': AMENT_PREFIX_PATH=/home/unitree/go2slam/install/go2_core:/home/unitree/go2slam/install/go2_driver:/home/unitree/go2slam/install/go2_twist_bridge:/home/unitree/go2slam/install/unitree_go:/home/unitree/go2slam/install/unitree_api:/home/unitree/go2slam/install/go2_slam:/home/unitree/go2slam/install/go2_perception:/home/unitree/go2slam/install/go2_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/unitree/go2slam/install/go2_core:/home/unitree/go2slam/install/go2_driver:/home/unitree/go2slam/install/go2_twist_bridge:/home/unitree/go2slam/install/unitree_go:/home/unitree/go2slam/install/unitree_api:/home/unitree/go2slam/install/go2_slam:/home/unitree/go2slam/install/go2_perception:/home/unitree/go2slam/install/go2_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/unitree/go2slam/install/unitree_go/lib:/home/unitree/go2slam/install/unitree_api/lib:/home/unitree/go2slam/install/go2_perception/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/unitree/go2slam/install/unitree_go/lib/python3.12/site-packages:/home/unitree/go2slam/install/unitree_api/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/unitree/go2slam/build/go2_navigation2 -- -j6 -l6
+[7.556s] Invoking command in '/home/unitree/go2slam/build/go2_navigation2': AMENT_PREFIX_PATH=/home/unitree/go2slam/install/go2_core:/home/unitree/go2slam/install/go2_driver:/home/unitree/go2slam/install/go2_twist_bridge:/home/unitree/go2slam/install/unitree_go:/home/unitree/go2slam/install/unitree_api:/home/unitree/go2slam/install/go2_slam:/home/unitree/go2slam/install/go2_perception:/home/unitree/go2slam/install/go2_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/unitree/go2slam/install/go2_core:/home/unitree/go2slam/install/go2_driver:/home/unitree/go2slam/install/go2_twist_bridge:/home/unitree/go2slam/install/unitree_go:/home/unitree/go2slam/install/unitree_api:/home/unitree/go2slam/install/go2_slam:/home/unitree/go2slam/install/go2_perception:/home/unitree/go2slam/install/go2_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/unitree/go2slam/install/unitree_go/lib:/home/unitree/go2slam/install/unitree_api/lib:/home/unitree/go2slam/install/go2_perception/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/unitree/go2slam/install/unitree_go/lib/python3.12/site-packages:/home/unitree/go2slam/install/unitree_api/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/unitree/go2slam/build/go2_navigation2
+[7.574s] -- Install configuration: ""
+[7.575s] -- Installing: /home/unitree/go2slam/install/go2_navigation2/share/go2_navigation2/climb_stairs_plugin.xml
+[7.576s] -- Installing: /home/unitree/go2slam/install/go2_navigation2/lib/go2_navigation2/navigation
+[7.577s] -- Set non-toolchain portion of runtime path of "/home/unitree/go2slam/install/go2_navigation2/lib/go2_navigation2/navigation" to ""
+[7.578s] -- Up-to-date: /home/unitree/go2slam/install/go2_navigation2/lib/go2_navigation2/front_align_cmd_vel_gate
+[7.579s] -- Up-to-date: /home/unitree/go2slam/install/go2_navigation2/lib/go2_navigation2/pcd_initial_pose_publisher
+[7.580s] -- Up-to-date: /home/unitree/go2slam/install/go2_navigation2/lib/go2_navigation2/initial_pose_spin_relocalizer
+[7.581s] -- Up-to-date: /home/unitree/go2slam/install/go2_navigation2/lib/go2_navigation2/libclimb_stairs_task.so
+[7.582s] -- Up-to-date: /home/unitree/go2slam/install/go2_navigation2/share/go2_navigation2/launch
+[7.582s] -- Installing: /home/unitree/go2slam/install/go2_navigation2/share/go2_navigation2/launch/go2_nav2.launch.py
+[7.582s] -- Up-to-date: /home/unitree/go2slam/install/go2_navigation2/share/go2_navigation2/launch/__pycache__
+[7.582s] -- Installing: /home/unitree/go2slam/install/go2_navigation2/share/go2_navigation2/launch/__pycache__/go2_nav2.launch.cpython-312.pyc
+[7.583s] -- Up-to-date: /home/unitree/go2slam/install/go2_navigation2/share/go2_navigation2/config
+[7.583s] -- Installing: /home/unitree/go2slam/install/go2_navigation2/share/go2_navigation2/config/stairs_waypoints.yaml
+[7.583s] -- Installing: /home/unitree/go2slam/install/go2_navigation2/share/go2_navigation2/config/nav2_params.yaml
+[7.584s] -- Up-to-date: /home/unitree/go2slam/install/go2_navigation2/share/go2_navigation2/rviz
+[7.584s] -- Installing: /home/unitree/go2slam/install/go2_navigation2/share/go2_navigation2/rviz/nav2_map_view.rviz
+[7.584s] -- Up-to-date: /home/unitree/go2slam/install/go2_navigation2/share/ament_index/resource_index/package_run_dependencies/go2_navigation2
+[7.585s] -- Installing: /home/unitree/go2slam/install/go2_navigation2/share/ament_index/resource_index/parent_prefix_path/go2_navigation2
+[7.585s] -- Installing: /home/unitree/go2slam/install/go2_navigation2/share/go2_navigation2/environment/ament_prefix_path.sh
+[7.585s] -- Up-to-date: /home/unitree/go2slam/install/go2_navigation2/share/go2_navigation2/environment/ament_prefix_path.dsv
+[7.585s] -- Installing: /home/unitree/go2slam/install/go2_navigation2/share/go2_navigation2/environment/path.sh
+[7.586s] -- Up-to-date: /home/unitree/go2slam/install/go2_navigation2/share/go2_navigation2/environment/path.dsv
+[7.586s] -- Up-to-date: /home/unitree/go2slam/install/go2_navigation2/share/go2_navigation2/local_setup.bash
+[7.586s] -- Up-to-date: /home/unitree/go2slam/install/go2_navigation2/share/go2_navigation2/local_setup.sh
+[7.587s] -- Up-to-date: /home/unitree/go2slam/install/go2_navigation2/share/go2_navigation2/local_setup.zsh
+[7.587s] -- Up-to-date: /home/unitree/go2slam/install/go2_navigation2/share/go2_navigation2/local_setup.dsv
+[7.587s] -- Up-to-date: /home/unitree/go2slam/install/go2_navigation2/share/go2_navigation2/package.dsv
+[7.587s] -- Up-to-date: /home/unitree/go2slam/install/go2_navigation2/share/ament_index/resource_index/packages/go2_navigation2
+[7.587s] -- Up-to-date: /home/unitree/go2slam/install/go2_navigation2/share/ament_index/resource_index/nav2_core__pluginlib__plugin/go2_navigation2
+[7.587s] -- Up-to-date: /home/unitree/go2slam/install/go2_navigation2/share/go2_navigation2/cmake/go2_navigation2Config.cmake
+[7.588s] -- Up-to-date: /home/unitree/go2slam/install/go2_navigation2/share/go2_navigation2/cmake/go2_navigation2Config-version.cmake
+[7.588s] -- Installing: /home/unitree/go2slam/install/go2_navigation2/share/go2_navigation2/package.xml
+[7.591s] Invoked command in '/home/unitree/go2slam/build/go2_navigation2' returned '0': AMENT_PREFIX_PATH=/home/unitree/go2slam/install/go2_core:/home/unitree/go2slam/install/go2_driver:/home/unitree/go2slam/install/go2_twist_bridge:/home/unitree/go2slam/install/unitree_go:/home/unitree/go2slam/install/unitree_api:/home/unitree/go2slam/install/go2_slam:/home/unitree/go2slam/install/go2_perception:/home/unitree/go2slam/install/go2_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/unitree/go2slam/install/go2_core:/home/unitree/go2slam/install/go2_driver:/home/unitree/go2slam/install/go2_twist_bridge:/home/unitree/go2slam/install/unitree_go:/home/unitree/go2slam/install/unitree_api:/home/unitree/go2slam/install/go2_slam:/home/unitree/go2slam/install/go2_perception:/home/unitree/go2slam/install/go2_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/unitree/go2slam/install/unitree_go/lib:/home/unitree/go2slam/install/unitree_api/lib:/home/unitree/go2slam/install/go2_perception/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/unitree/go2slam/install/unitree_go/lib/python3.12/site-packages:/home/unitree/go2slam/install/unitree_api/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/unitree/go2slam/build/go2_navigation2

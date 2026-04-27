@@ -1,0 +1,71 @@
+[0.027s] Invoking command in '/home/unitree/go2slam/build/go2_driver': AMENT_PREFIX_PATH=/home/unitree/go2slam/install/go2_twist_bridge:/home/unitree/go2slam/install/unitree_go:/home/unitree/go2slam/install/unitree_api:/home/unitree/go2slam/install/go2_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/unitree/go2slam/install/go2_twist_bridge:/home/unitree/go2slam/install/unitree_go:/home/unitree/go2slam/install/unitree_api:/home/unitree/go2slam/install/go2_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/unitree/go2slam/install/unitree_go/lib:/home/unitree/go2slam/install/unitree_api/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/unitree/go2slam/install/unitree_go/lib/python3.12/site-packages:/home/unitree/go2slam/install/unitree_api/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/unitree/go2slam/build/go2_driver -- -j6 -l6
+[0.086s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.479s] -- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.539s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.557s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.581s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.608s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.723s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.725s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.854s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.968s] -- Found unitree_go: 0.0.0 (/home/unitree/unitree_ros2/install/unitree_go/share/unitree_go/cmake)
+[1.054s] -- Found nav_msgs: 5.3.7 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[1.098s] -- Found tf2: 0.36.20 (/opt/ros/jazzy/share/tf2/cmake)
+[1.105s] -- Found tf2_ros: 0.36.20 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[1.294s] -- Found sensor_msgs: 5.3.7 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.349s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.561s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.561s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/unitree/go2slam/src/base/go2_driver/include>
+[1.561s] -- Configured cppcheck exclude dirs and/or files: 
+[1.562s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.562s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.563s] -- Added test 'lint_cmake' to check CMake code style
+[1.564s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.566s] -- Added test 'uncrustify' to check C / C++ code style
+[1.566s] -- Configured uncrustify additional arguments: 
+[1.567s] -- Added test 'xmllint' to check XML markup files
+[1.569s] -- Configuring done (1.5s)
+[1.637s] -- Generating done (0.0s)
+[1.655s] -- Build files have been written to: /home/unitree/go2slam/build/go2_driver
+[1.777s] [ 16%] Building CXX object CMakeFiles/lowstate_to_imu.dir/src/lowstate_to_imu.cpp.o
+[1.777s] [ 33%] Building CXX object CMakeFiles/footprint_to_link.dir/src/footprint_to_link.cpp.o
+[1.783s] [ 50%] Building CXX object CMakeFiles/driver.dir/src/driver.cpp.o
+[20.709s] [ 66%] Linking CXX executable footprint_to_link
+[21.648s] [ 66%] Built target footprint_to_link
+[23.238s] [ 83%] Linking CXX executable lowstate_to_imu
+[24.153s] [ 83%] Built target lowstate_to_imu
+[35.696s] [100%] Linking CXX executable driver
+[37.033s] [100%] Built target driver
+[37.058s] Invoked command in '/home/unitree/go2slam/build/go2_driver' returned '0': AMENT_PREFIX_PATH=/home/unitree/go2slam/install/go2_twist_bridge:/home/unitree/go2slam/install/unitree_go:/home/unitree/go2slam/install/unitree_api:/home/unitree/go2slam/install/go2_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/unitree/go2slam/install/go2_twist_bridge:/home/unitree/go2slam/install/unitree_go:/home/unitree/go2slam/install/unitree_api:/home/unitree/go2slam/install/go2_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/unitree/go2slam/install/unitree_go/lib:/home/unitree/go2slam/install/unitree_api/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/unitree/go2slam/install/unitree_go/lib/python3.12/site-packages:/home/unitree/go2slam/install/unitree_api/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/unitree/go2slam/build/go2_driver -- -j6 -l6
+[37.059s] Invoking command in '/home/unitree/go2slam/build/go2_driver': AMENT_PREFIX_PATH=/home/unitree/go2slam/install/go2_twist_bridge:/home/unitree/go2slam/install/unitree_go:/home/unitree/go2slam/install/unitree_api:/home/unitree/go2slam/install/go2_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/unitree/go2slam/install/go2_twist_bridge:/home/unitree/go2slam/install/unitree_go:/home/unitree/go2slam/install/unitree_api:/home/unitree/go2slam/install/go2_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/unitree/go2slam/install/unitree_go/lib:/home/unitree/go2slam/install/unitree_api/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/unitree/go2slam/install/unitree_go/lib/python3.12/site-packages:/home/unitree/go2slam/install/unitree_api/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/unitree/go2slam/build/go2_driver
+[37.079s] -- Install configuration: ""
+[37.080s] -- Installing: /home/unitree/go2slam/install/go2_driver/lib/go2_driver/driver
+[37.108s] -- Set non-toolchain portion of runtime path of "/home/unitree/go2slam/install/go2_driver/lib/go2_driver/driver" to ""
+[37.109s] -- Installing: /home/unitree/go2slam/install/go2_driver/lib/go2_driver/footprint_to_link
+[37.122s] -- Set non-toolchain portion of runtime path of "/home/unitree/go2slam/install/go2_driver/lib/go2_driver/footprint_to_link" to ""
+[37.122s] -- Installing: /home/unitree/go2slam/install/go2_driver/lib/go2_driver/lowstate_to_imu
+[37.136s] -- Set non-toolchain portion of runtime path of "/home/unitree/go2slam/install/go2_driver/lib/go2_driver/lowstate_to_imu" to ""
+[37.137s] -- Up-to-date: /home/unitree/go2slam/install/go2_driver/share/go2_driver/launch
+[37.137s] -- Up-to-date: /home/unitree/go2slam/install/go2_driver/share/go2_driver/launch/__pycache__
+[37.137s] -- Installing: /home/unitree/go2slam/install/go2_driver/share/go2_driver/launch/__pycache__/driver.launch.cpython-312.pyc
+[37.138s] -- Installing: /home/unitree/go2slam/install/go2_driver/share/go2_driver/launch/driver.launch.py
+[37.138s] -- Up-to-date: /home/unitree/go2slam/install/go2_driver/share/go2_driver/params
+[37.138s] -- Installing: /home/unitree/go2slam/install/go2_driver/share/go2_driver/params/driver.yaml
+[37.138s] -- Up-to-date: /home/unitree/go2slam/install/go2_driver/share/go2_driver/rviz
+[37.138s] -- Installing: /home/unitree/go2slam/install/go2_driver/share/go2_driver/rviz/display.rviz
+[37.139s] -- Installing: /home/unitree/go2slam/install/go2_driver/share/ament_index/resource_index/package_run_dependencies/go2_driver
+[37.139s] -- Installing: /home/unitree/go2slam/install/go2_driver/share/ament_index/resource_index/parent_prefix_path/go2_driver
+[37.139s] -- Installing: /home/unitree/go2slam/install/go2_driver/share/go2_driver/environment/ament_prefix_path.sh
+[37.139s] -- Installing: /home/unitree/go2slam/install/go2_driver/share/go2_driver/environment/ament_prefix_path.dsv
+[37.140s] -- Installing: /home/unitree/go2slam/install/go2_driver/share/go2_driver/environment/path.sh
+[37.140s] -- Installing: /home/unitree/go2slam/install/go2_driver/share/go2_driver/environment/path.dsv
+[37.140s] -- Installing: /home/unitree/go2slam/install/go2_driver/share/go2_driver/local_setup.bash
+[37.141s] -- Installing: /home/unitree/go2slam/install/go2_driver/share/go2_driver/local_setup.sh
+[37.141s] -- Installing: /home/unitree/go2slam/install/go2_driver/share/go2_driver/local_setup.zsh
+[37.141s] -- Installing: /home/unitree/go2slam/install/go2_driver/share/go2_driver/local_setup.dsv
+[37.142s] -- Installing: /home/unitree/go2slam/install/go2_driver/share/go2_driver/package.dsv
+[37.142s] -- Installing: /home/unitree/go2slam/install/go2_driver/share/ament_index/resource_index/packages/go2_driver
+[37.142s] -- Installing: /home/unitree/go2slam/install/go2_driver/share/go2_driver/cmake/go2_driverConfig.cmake
+[37.143s] -- Installing: /home/unitree/go2slam/install/go2_driver/share/go2_driver/cmake/go2_driverConfig-version.cmake
+[37.143s] -- Installing: /home/unitree/go2slam/install/go2_driver/share/go2_driver/package.xml
+[37.147s] Invoked command in '/home/unitree/go2slam/build/go2_driver' returned '0': AMENT_PREFIX_PATH=/home/unitree/go2slam/install/go2_twist_bridge:/home/unitree/go2slam/install/unitree_go:/home/unitree/go2slam/install/unitree_api:/home/unitree/go2slam/install/go2_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/unitree/go2slam/install/go2_twist_bridge:/home/unitree/go2slam/install/unitree_go:/home/unitree/go2slam/install/unitree_api:/home/unitree/go2slam/install/go2_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/unitree/go2slam/install/unitree_go/lib:/home/unitree/go2slam/install/unitree_api/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/unitree/go2slam/install/unitree_go/lib/python3.12/site-packages:/home/unitree/go2slam/install/unitree_api/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/unitree/go2slam/build/go2_driver

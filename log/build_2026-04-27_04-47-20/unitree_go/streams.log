@@ -1,0 +1,37 @@
+[0.083s] Invoking command in '/home/unitree/go2slam/build/unitree_go': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/unitree/unitree_ros2/install/unitree_hg:/home/unitree/unitree_ros2/install/unitree_go:/home/unitree/unitree_ros2/install/unitree_api:/opt/ros/jazzy /usr/bin/cmake /home/unitree/go2slam/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go -DCMAKE_INSTALL_PREFIX=/home/unitree/go2slam/install/unitree_go
+[0.378s] -- The C compiler identification is GNU 13.3.0
+[0.602s] -- The CXX compiler identification is GNU 13.3.0
+[0.697s] -- Detecting C compiler ABI info
+[1.179s] -- Detecting C compiler ABI info - done
+[1.213s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.214s] -- Detecting C compile features
+[1.215s] -- Detecting C compile features - done
+[1.256s] -- Detecting CXX compiler ABI info
+[1.691s] -- Detecting CXX compiler ABI info - done
+[1.731s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.732s] -- Detecting CXX compile features
+[1.733s] -- Detecting CXX compile features - done
+[1.757s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.231s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.717s] -- Found geometry_msgs: 5.3.7 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[2.977s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[3.052s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[3.123s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.206s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.359s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[3.456s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[3.473s] -- Found rosidl_generator_dds_idl: 0.11.1 (/opt/ros/jazzy/share/rosidl_generator_dds_idl/cmake)
+[5.230s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[7.249s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.043s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.059s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[8.388s] -- Found PythonExtra: /usr/bin/python3  
+[9.539s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[9.901s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[10.001s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[10.153s] -- Added test 'copyright' to check source files copyright and LICENSE
+[10.161s] -- Added test 'lint_cmake' to check CMake code style
+[10.166s] -- Added test 'xmllint' to check XML markup files
+[10.178s] -- Configuring done (10.0s)
+[10.405s] -- Generating done (0.2s)
+[10.439s] -- Build files have been written to: /home/unitree/go2slam/build/unitree_go

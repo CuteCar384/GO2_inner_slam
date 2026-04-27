@@ -1,0 +1,32 @@
+[0.048s] Invoking command in '/home/unitree/go2slam/build/go2_perception': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/unitree/go2slam/build/go2_perception -- -j6 -l6
+[0.384s] [ 33%] Built target cloud_accumulation
+[0.532s] [ 66%] Built target pointcloud_to_laserscan_node
+[0.635s] [100%] Built target pointcloud_to_laserscan
+[0.712s] Invoked command in '/home/unitree/go2slam/build/go2_perception' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/unitree/go2slam/build/go2_perception -- -j6 -l6
+[0.715s] Invoking command in '/home/unitree/go2slam/build/go2_perception': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/unitree/go2slam/build/go2_perception
+[0.760s] -- Install configuration: ""
+[0.776s] -- Installing: /home/unitree/go2slam/install/go2_perception/lib/go2_perception/pointcloud_to_laserscan_node
+[0.788s] -- Set non-toolchain portion of runtime path of "/home/unitree/go2slam/install/go2_perception/lib/go2_perception/pointcloud_to_laserscan_node" to ""
+[0.791s] -- Up-to-date: /home/unitree/go2slam/install/go2_perception/lib/libpointcloud_to_laserscan.so
+[0.794s] -- Up-to-date: /home/unitree/go2slam/install/go2_perception/lib/go2_perception/cloud_accumulation
+[0.796s] -- Up-to-date: /home/unitree/go2slam/install/go2_perception/share/go2_perception/launch
+[0.799s] -- Up-to-date: /home/unitree/go2slam/install/go2_perception/share/go2_perception/launch/__pycache__
+[0.801s] -- Installing: /home/unitree/go2slam/install/go2_perception/share/go2_perception/launch/__pycache__/go2_pointcloud.launch.cpython-312.pyc
+[0.805s] -- Installing: /home/unitree/go2slam/install/go2_perception/share/go2_perception/launch/go2_pointcloud.launch.py
+[0.814s] -- Up-to-date: /home/unitree/go2slam/install/go2_perception/share/ament_index/resource_index/package_run_dependencies/go2_perception
+[0.816s] -- Installing: /home/unitree/go2slam/install/go2_perception/share/ament_index/resource_index/parent_prefix_path/go2_perception
+[0.819s] -- Installing: /home/unitree/go2slam/install/go2_perception/share/go2_perception/environment/ament_prefix_path.sh
+[0.822s] -- Up-to-date: /home/unitree/go2slam/install/go2_perception/share/go2_perception/environment/ament_prefix_path.dsv
+[0.824s] -- Installing: /home/unitree/go2slam/install/go2_perception/share/go2_perception/environment/path.sh
+[0.827s] -- Up-to-date: /home/unitree/go2slam/install/go2_perception/share/go2_perception/environment/path.dsv
+[0.828s] -- Up-to-date: /home/unitree/go2slam/install/go2_perception/share/go2_perception/local_setup.bash
+[0.829s] -- Up-to-date: /home/unitree/go2slam/install/go2_perception/share/go2_perception/local_setup.sh
+[0.831s] -- Up-to-date: /home/unitree/go2slam/install/go2_perception/share/go2_perception/local_setup.zsh
+[0.832s] -- Up-to-date: /home/unitree/go2slam/install/go2_perception/share/go2_perception/local_setup.dsv
+[0.834s] -- Up-to-date: /home/unitree/go2slam/install/go2_perception/share/go2_perception/package.dsv
+[0.835s] -- Up-to-date: /home/unitree/go2slam/install/go2_perception/share/ament_index/resource_index/packages/go2_perception
+[0.843s] -- Up-to-date: /home/unitree/go2slam/install/go2_perception/share/ament_index/resource_index/rclcpp_components/go2_perception
+[0.845s] -- Up-to-date: /home/unitree/go2slam/install/go2_perception/share/go2_perception/cmake/go2_perceptionConfig.cmake
+[0.847s] -- Up-to-date: /home/unitree/go2slam/install/go2_perception/share/go2_perception/cmake/go2_perceptionConfig-version.cmake
+[0.848s] -- Installing: /home/unitree/go2slam/install/go2_perception/share/go2_perception/package.xml
+[0.855s] Invoked command in '/home/unitree/go2slam/build/go2_perception' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/unitree/go2slam/build/go2_perception

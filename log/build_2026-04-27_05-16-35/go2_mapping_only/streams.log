@@ -1,0 +1,26 @@
+[0.127s] Invoking command in '/home/unitree/go2slam/build/go2_mapping_only': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/unitree/go2slam/build/go2_mapping_only -- -j6 -l6
+[0.612s] [100%] Built target go2_map_builder
+[0.694s] Invoked command in '/home/unitree/go2slam/build/go2_mapping_only' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/unitree/go2slam/build/go2_mapping_only -- -j6 -l6
+[0.695s] Invoking command in '/home/unitree/go2slam/build/go2_mapping_only': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/unitree/go2slam/build/go2_mapping_only
+[0.777s] -- Install configuration: ""
+[0.778s] -- Up-to-date: /home/unitree/go2slam/install/go2_mapping_only/lib/go2_mapping_only/go2_map_builder
+[0.779s] -- Up-to-date: /home/unitree/go2slam/install/go2_mapping_only/share/go2_mapping_only/launch
+[0.781s] -- Up-to-date: /home/unitree/go2slam/install/go2_mapping_only/share/go2_mapping_only/launch/mapping_only.launch.py
+[0.781s] -- Up-to-date: /home/unitree/go2slam/install/go2_mapping_only/share/go2_mapping_only/rviz_cfg
+[0.782s] -- Up-to-date: /home/unitree/go2slam/install/go2_mapping_only/share/go2_mapping_only/rviz_cfg/mapping_only.rviz
+[0.782s] -- Up-to-date: /home/unitree/go2slam/install/go2_mapping_only/share/ament_index/resource_index/package_run_dependencies/go2_mapping_only
+[0.783s] -- Up-to-date: /home/unitree/go2slam/install/go2_mapping_only/share/ament_index/resource_index/parent_prefix_path/go2_mapping_only
+[0.784s] -- Up-to-date: /home/unitree/go2slam/install/go2_mapping_only/share/go2_mapping_only/environment/ament_prefix_path.sh
+[0.785s] -- Up-to-date: /home/unitree/go2slam/install/go2_mapping_only/share/go2_mapping_only/environment/ament_prefix_path.dsv
+[0.786s] -- Up-to-date: /home/unitree/go2slam/install/go2_mapping_only/share/go2_mapping_only/environment/path.sh
+[0.787s] -- Up-to-date: /home/unitree/go2slam/install/go2_mapping_only/share/go2_mapping_only/environment/path.dsv
+[0.788s] -- Up-to-date: /home/unitree/go2slam/install/go2_mapping_only/share/go2_mapping_only/local_setup.bash
+[0.790s] -- Up-to-date: /home/unitree/go2slam/install/go2_mapping_only/share/go2_mapping_only/local_setup.sh
+[0.791s] -- Up-to-date: /home/unitree/go2slam/install/go2_mapping_only/share/go2_mapping_only/local_setup.zsh
+[0.791s] -- Up-to-date: /home/unitree/go2slam/install/go2_mapping_only/share/go2_mapping_only/local_setup.dsv
+[0.791s] -- Installing: /home/unitree/go2slam/install/go2_mapping_only/share/go2_mapping_only/package.dsv
+[0.791s] -- Up-to-date: /home/unitree/go2slam/install/go2_mapping_only/share/ament_index/resource_index/packages/go2_mapping_only
+[0.792s] -- Up-to-date: /home/unitree/go2slam/install/go2_mapping_only/share/go2_mapping_only/cmake/go2_mapping_onlyConfig.cmake
+[0.792s] -- Up-to-date: /home/unitree/go2slam/install/go2_mapping_only/share/go2_mapping_only/cmake/go2_mapping_onlyConfig-version.cmake
+[0.792s] -- Up-to-date: /home/unitree/go2slam/install/go2_mapping_only/share/go2_mapping_only/package.xml
+[0.807s] Invoked command in '/home/unitree/go2slam/build/go2_mapping_only' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/unitree/go2slam/build/go2_mapping_only
