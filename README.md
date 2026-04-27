@@ -3,7 +3,6 @@
 项目根目录下的 Shell 脚本用于管理 Go2 机器狗的 SLAM 与导航。
 
 ---
-
 ## 环境配置
 
 ### Docker 环境
@@ -15,23 +14,8 @@ wget http://fishros.com/install -O fishros && bash fishros
 # 选择 11 安装 docker 的 jazzy，选择 host 模式，命名为 jazzy
 # 进入容器
 xhost +
-docker exec -it jazzy /bin/bash
-
-# 容器内 clone 项目后，执行以下命令完成环境准备
-cd GO2_inner_slam/
-source install/setup.bash
-```
-
-### 前置条件
-
-- ROS 2 Jazzy (`/opt/ros/jazzy/setup.bash`)
-- Unitree ROS 2 消息包已编译并 source (`unitree_ros2/install/setup.bash`)
-- 需要图形界面环境（`DISPLAY` 或 `WAYLAND_DISPLAY`），用于启动 RViz
-
-以下依赖需要在 `jazzy` 容器内部安装：
-
-```bash
-apt-get update
+sudo docker exec -it jazzy /bin/bash
+apt-get update # 建议提前更换国内镜像
 apt-get install -y \
   python3-colcon-common-extensions \
   ros-jazzy-navigation2 \
@@ -46,25 +30,13 @@ apt-get install -y \
   ros-jazzy-xacro \
   ros-jazzy-robot-state-publisher \
   ros-jazzy-joint-state-publisher
-```
 
-其中：
-
-- `ros-jazzy-pcl-ros`、`ros-jazzy-pcl-conversions`：点云建图包 `go2_mapping_only` 编译需要。
-- `ros-jazzy-rviz2`：启动脚本默认会打开 RViz；如果容器内未安装，会出现 `rviz2: command not found`。
-- `ros-jazzy-navigation2`、`ros-jazzy-nav2-bringup`：Nav2 导航栈，包含 planner、controller、behavior、lifecycle 等导航组件。
-- `ros-jazzy-slam-toolbox`：SLAM 模式下发布 `/map` 和 `map -> odom` 变换。
-- `ros-jazzy-robot-localization`：EKF 融合里程计/IMU，提供导航所需的定位数据。
-
-安装完成后，在容器内编译：
-
-```bash
-cd /home/unitree/go2slam
-source /opt/ros/jazzy/setup.bash
-source unitree_ros2/install/setup.bash
-colcon build
+# 容器/home/unitree内 clone 项目后，执行以下命令完成环境准备
+# 本项目所有包都提前在GO2 EDU内部同docker环境进行过编译, 可直接激活
+cd GO2_inner_slam/
 source install/setup.bash
 ```
+
 
 ---
 
