@@ -65,8 +65,8 @@ source install/setup.bash
 
 | 脚本 | 说明 |
 |------|------|
-| `save_2dmap.sh` | 将 `/map` 话题保存为 2D 地图（`maps/map.yaml` + `maps/map.pgm`） |  
-| `save_pointcloud.sh` | 订阅 `/go2_built_map` 保存 3D 点云到 `output/go2_built_map_*.pcd` | 
+| `save_2dmap.sh` | 将 `/map` 话题保存为 2D 地图（`maps/map.yaml` + `maps/map.pgm`） |
+| `save_pointcloud.sh` | 订阅 `/go2_built_map` 保存 3D 点云到 `output/go2_built_map_*.pcd` |
 
 ---
 
@@ -74,5 +74,40 @@ source install/setup.bash
 
 | 脚本 | 说明 |
 |------|------|
-| `get_go2_map_pose.sh` | 查询或发送导航目标<br>`./get_go2_map_pose.sh` 查看当前位置<br>`./get_go2_map_pose.sh forward 3 --send` 向前移动3米并发送 Nav2 目标 |
+| `get_go2_map_pose.sh` | 查询、保存、复用或发送导航目标<br>`./get_go2_map_pose.sh` 查看当前位置<br>`./get_go2_map_pose.sh save home` 追加保存当前 Pose 到 `poses.json`<br>`./get_go2_map_pose.sh list` 查看已保存 Pose<br>`./get_go2_map_pose.sh send home` 导航到最新的 `home` Pose<br>`./get_go2_map_pose.sh send --index 3` 按序号导航到历史 Pose<br>`./get_go2_map_pose.sh goto 1.2 -0.8 90 --send` 直接发送绝对 map 坐标<br>`./get_go2_map_pose.sh forward 3 --send` 向前移动3米并发送 Nav2 目标 |
 | `kill_all_ros2.sh` | 清理所有 ROS2 相关进程<br>`./kill_all_ros2.sh` 优雅终止，或加 `--force` 直接杀死 |
+
+### `get_go2_map_pose.sh` 常用流程
+
+先启动定位或建图导航：
+
+```bash
+./start_go2_nav2_localization.sh
+# 或
+./start_go2_slam_nav2.sh
+```
+
+保存当前位置为可复用 Pose：
+
+```bash
+./get_go2_map_pose.sh save home
+./get_go2_map_pose.sh save charger
+```
+
+所有 Pose 会追加保存到项目根目录的 `poses.json`，同名保存不会覆盖旧记录。
+
+查看并复用已保存 Pose：
+
+```bash
+./get_go2_map_pose.sh list
+./get_go2_map_pose.sh send home
+./get_go2_map_pose.sh send --index 3
+```
+
+直接发送绝对地图坐标：
+
+```bash
+./get_go2_map_pose.sh goto 1.2 -0.8 90 --send
+```
+
+不加 `--send` 时只打印目标点，不会让机器狗移动。

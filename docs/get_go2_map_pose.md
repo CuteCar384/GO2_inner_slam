@@ -1,6 +1,6 @@
 # get_go2_map_pose.sh 使用文档
 
-`get_go2_map_pose.sh` 用来读取机器狗当前在地图中的坐标，也可以基于当前位置计算并发送一个简单的 Nav2 目标点。
+`get_go2_map_pose.sh` 用来读取机器狗当前在地图中的坐标，也可以保存 Pose、从 Pose 库发送导航目标，或基于当前位置计算并发送一个简单的 Nav2 目标点。
 
 脚本默认读取：
 
@@ -64,6 +64,92 @@ yaw: 机器狗当前朝向，单位度
 ```bash
 ./get_go2_map_pose.sh --watch --rate 5
 ```
+
+## 保存 Pose
+
+把当前完整 Pose 追加保存到项目根目录的 `poses.json`：
+
+```bash
+./get_go2_map_pose.sh save
+```
+
+指定名称保存：
+
+```bash
+./get_go2_map_pose.sh save home
+./get_go2_map_pose.sh save charger
+```
+
+`poses.json` 是追加式保存，同名 Pose 不会覆盖历史记录。每条记录包含：
+
+```text
+name
+saved_at
+frame_id
+base_frame
+position x/y/z
+orientation quaternion
+yaw_rad / yaw_deg
+```
+
+列出已保存 Pose：
+
+```bash
+./get_go2_map_pose.sh list
+```
+
+如果想指定其他 Pose 文件：
+
+```bash
+./get_go2_map_pose.sh save home --pose-file my_poses.json
+./get_go2_map_pose.sh list --pose-file my_poses.json
+```
+
+## 从 poses.json 发送导航
+
+按名称发送导航目标：
+
+```bash
+./get_go2_map_pose.sh send home
+```
+
+如果同名保存了多次，默认发送该名称最新的一条。
+
+按 `list` 输出中的序号发送指定历史 Pose：
+
+```bash
+./get_go2_map_pose.sh send --index 3
+```
+
+从指定 Pose 文件发送：
+
+```bash
+./get_go2_map_pose.sh send home --pose-file my_poses.json
+```
+
+`send` 会直接向 Nav2 的 `/navigate_to_pose` action server 发送目标，使用前请确认环境安全。
+
+## 发送绝对 map 坐标
+
+只打印目标点，不发送：
+
+```bash
+./get_go2_map_pose.sh goto 1.2 -0.8 90
+```
+
+发送绝对坐标：
+
+```bash
+./get_go2_map_pose.sh goto 1.2 -0.8 90 --send
+```
+
+参数含义：
+
+```text
+x y yaw_deg
+```
+
+`yaw_deg` 可省略，省略时默认 0 度。
 
 ## 计算前方目标点
 
@@ -238,6 +324,13 @@ ros2 topic echo /cmd_vel --once
 ./get_go2_map_pose.sh
 ```
 
+需要复用当前位置时，先保存：
+
+```bash
+./get_go2_map_pose.sh save home
+./get_go2_map_pose.sh list
+```
+
 再计算目标点，确认方向没问题：
 
 ```bash
@@ -248,6 +341,12 @@ ros2 topic echo /cmd_vel --once
 
 ```bash
 ./get_go2_map_pose.sh forward 3 --send
+```
+
+或者从保存的 Pose 直接导航：
+
+```bash
+./get_go2_map_pose.sh send home
 ```
 
 这样可以避免把 `forward` 和 `map-x` 混淆，导致机器狗朝非预期方向移动。
