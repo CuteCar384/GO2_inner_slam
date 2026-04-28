@@ -66,7 +66,7 @@ source install/setup.bash
 | 脚本 | 说明 |
 |------|------|
 | `save_2dmap.sh` | 将 `/map` 话题保存为 2D 地图（`maps/map.yaml` + `maps/map.pgm`） |
-| `save_pointcloud.sh` | 订阅 `/go2_built_map` 保存 3D 点云到 `output/go2_built_map_*.pcd` |
+| `save_pointcloud.sh` | 订阅 `/go2_built_map` 保存 3D 点云到 `output/go2_built_map_*.pcd` | 可以使用pcl_tools进行点云查看 | 
 
 ---
 
