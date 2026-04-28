@@ -19,7 +19,8 @@ wget http://fishros.com/install -O fishros && bash fishros
 # 进入容器
 xhost +
 sudo docker exec -it jazzy /bin/bash
-apt-get update # 建议提前更换国内镜像
+sudo sed -i.bak 's|http://.*.ubuntu.com|http://mirrors.aliyun.com|g' /etc/apt/sources.list && sudo apt update
+apt-get update 
 apt-get install -y \
   python3-colcon-common-extensions \
   ros-jazzy-navigation2 \
