@@ -26,7 +26,6 @@ sed -i 's/security.debian.org/mirrors.aliyun.com/g' /etc/apt/sources.list
 apt-get update && apt-get install -y wget
 # 选择 11 安装 docker 的 jazzy，命名为 jazzy, 选择 host 模式，选择VSCODE插件+
 wget http://fishros.com/install -O fishros && bash fishros  ( 此时选择5,便捷切换系统镜像以及ROS源，使用自动测速配置 )
-apt-get update 
 apt-get install -y \
   python3-colcon-common-extensions \
   ros-jazzy-navigation2 \
