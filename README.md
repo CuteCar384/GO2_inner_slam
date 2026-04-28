@@ -44,9 +44,9 @@ apt-get install -y \
 # clone项目
 cd /home/unitree/
 git clone https://github.com/CuteCar384/GO2_inner_slam.git
-# 本项目所有包都提前在GO2 EDU内部同docker环境进行过编译, 可直接激活
+# 本项目所有包都提前在GO2 EDU内部同docker环境进行过编译
 cd GO2_inner_slam/
-source install/setup.bash
+# 不要不要不要不要source install/setup.bash，直接使用目录下的脚本即可，往下看
 ```
 
 
