@@ -8,6 +8,10 @@
 ### Docker 环境
 
 ```bash
+# 配置国内镜像（option）
+sudo sed -i.bak 's|http://.*.ubuntu.com|http://mirrors.aliyun.com|g' /etc/apt/sources.list && sudo apt update
+sudo apt install wget
+
 # 安装 fishros ( 此时处于扩展坞内，非docker容器内，需要提前安装wget工具（sudo apt install wget)， 若处于国内更换国内镜像）
 wget http://fishros.com/install -O fishros && bash fishros
 
