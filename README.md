@@ -4,9 +4,7 @@
 
 ---
 ## 环境配置
-
-### Docker 环境
-
+### 扩展坞内环境
 ```bash
 # 配置国内镜像（option）
 sudo sed -i.bak 's|http://.*.ubuntu.com|http://mirrors.aliyun.com|g' /etc/apt/sources.list && sudo apt update
@@ -14,11 +12,14 @@ sudo apt install wget
 
 # 安装 fishros ( 此时处于扩展坞内，非docker容器内，脚本内交互时可选更换国内镜像, 优选中科大镜像）
 wget http://fishros.com/install -O fishros && bash fishros
-
-# 选择 11 安装 docker 的 jazzy，命名为 jazzy, 选择 host 模式，选择VSCODE插件+
 # 进入容器
 xhost +
 sudo docker exec -it jazzy /bin/bash
+```
+
+### Docker容器内 环境
+```bash
+# 选择 11 安装 docker 的 jazzy，命名为 jazzy, 选择 host 模式，选择VSCODE插件+
 sed -i 's/deb.debian.org/mirrors.aliyun.com/g' /etc/apt/sources.list && \
 sed -i 's/security.debian.org/mirrors.aliyun.com/g' /etc/apt/sources.list
 # 更新索引并安装 wget
