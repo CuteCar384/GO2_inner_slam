@@ -19,8 +19,10 @@ wget http://fishros.com/install -O fishros && bash fishros
 # 进入容器
 xhost +
 sudo docker exec -it jazzy /bin/bash
-sudo sed -i.bak 's|http://.*.ubuntu.com|http://mirrors.aliyun.com|g' /etc/apt/sources.list && sudo apt update
-sudo apt install wget
+sed -i 's/deb.debian.org/mirrors.aliyun.com/g' /etc/apt/sources.list && \
+sed -i 's/security.debian.org/mirrors.aliyun.com/g' /etc/apt/sources.list
+# 更新索引并安装 wget
+apt-get update && apt-get install -y wget
 wget http://fishros.com/install -O fishros && bash fishros  ( 此时选择5,便捷切换系统镜像以及ROS源，使用自动测速配置 )
 apt-get update 
 apt-get install -y \
