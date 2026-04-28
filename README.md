@@ -61,7 +61,7 @@ cd GO2_inner_slam/
 
 ---
 
-## 建图脚本(必须先启动start_go2_slam_nav2.sh脚本才可以，start_go2_slam_nav2.sh --mapping则额外建立点云地图)
+## 地图保存脚本(必须先启动start_go2_slam_nav2.sh脚本才可以，start_go2_slam_nav2.sh --mapping则额外建立点云地图)
 
 | 脚本 | 说明 |
 |------|------|
