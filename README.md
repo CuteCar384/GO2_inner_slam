@@ -56,8 +56,8 @@ cd GO2_inner_slam/
 
 | 脚本 | 说明 |
 |------|------|
-| `start_go2_slam_nav2.sh` | 建图主脚本，启动 SLAM 模式的 Nav2 导航<br>`./start_go2_slam_nav2.sh` 或加 `--mapping` 同时启动点云建图<br>加 `--no-rviz` 可跳过 RViz |
-| `start_go2_nav2_localization.sh` | 此脚本也直接使用，./start_go2_nav2_localization.sh，默认使用maps和output目录下最新文件（output目录下的pcd点云用来初始化重定位，若上次建图没有保存点云则本次无法重定位，使用已有地图启动 AMCL 定位模式<br>`./start_go2_nav2_localization.sh [maps/xxx.yaml] [output/xxx.pcd]`<br>加 `--no-rviz` 可跳过 RViz |
+| `start_go2_slam_nav2.sh` | （首次启动）建图主脚本，启动 SLAM 模式的 Nav2 导航<br>`./start_go2_slam_nav2.sh` 或加 `--mapping` 同时启动点云建图<br>加 `--no-rviz` 可跳过 RViz |
+| `start_go2_nav2_localization.sh` | （当有2d地图+点云被保存后使用）此脚本也直接使用，./start_go2_nav2_localization.sh，默认使用maps和output目录下最新文件（output目录下的pcd点云用来初始化重定位，若上次建图没有保存点云则本次无法重定位，使用已有地图启动 AMCL 定位模式<br>`./start_go2_nav2_localization.sh [maps/xxx.yaml] [output/xxx.pcd]`<br>加 `--no-rviz` 可跳过 RViz |
 
 ---
 
