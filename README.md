@@ -4,7 +4,7 @@
 
 ---
 ## 环境配置
-### 扩展坞内环境
+### 1、扩展坞内环境
 ```bash
 # 配置国内镜像（option）
 sudo sed -i.bak 's|http://.*.ubuntu.com|http://mirrors.aliyun.com|g' /etc/apt/sources.list && sudo apt update
@@ -17,7 +17,7 @@ xhost +
 sudo docker exec -it jazzy /bin/bash
 ```
 
-### Docker容器内 环境
+### 2、Docker容器内 环境
 ```bash
 # 选择 11 安装 docker 的 jazzy，命名为 jazzy, 选择 host 模式，选择VSCODE插件+
 sed -i 's/deb.debian.org/mirrors.aliyun.com/g' /etc/apt/sources.list && \
