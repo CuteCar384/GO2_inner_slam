@@ -15,7 +15,7 @@ sudo apt install wget
 # 安装 fishros ( 此时处于扩展坞内，非docker容器内，需要提前安装wget工具（sudo apt install wget)， 若处于国内更换国内镜像）
 wget http://fishros.com/install -O fishros && bash fishros
 
-# 选择 11 安装 docker 的 jazzy，选择 host 模式，命名为 jazzy
+# 选择 11 安装 docker 的 jazzy，命名为 jazzy, 选择 host 模式，选择VSCODE插件+
 # 进入容器
 xhost +
 sudo docker exec -it jazzy /bin/bash
