@@ -1,3 +1,13 @@
+# 前置准备
+进入https://www.nomachine.com/安装nomachine软件。
+开一个cmd，ssh unitree@192.168.123.18（或热点IP）, 选择1进入foxy， 执行./nomachine.sh  ， 输入sudo密码123
+此时打开nomachine，左上角add ，add connection， name字段自拟。 host字段192.168.123.18（或者wifi的IP，前提是机器狗确实连接了同一个热点）
+其他字段不用动，add完毕。
+然后此时直接双击打开添加好的配置，用户名和密码unitree/123, 一路OK即可进入GO2扩展坞桌面系统。  此时后续传文件不用scp指令，可以直接从WINDOWS拖拽到桌面中。
+nomachine中按下ctrl+alt+0, 选择display，选择resize模式（第三个），此时将变成正常分辨率。
+
+
+
 # Go2 SLAM (注意所有操作都在GO2扩展坞(仅支持GO2 EDU版本)进行)
 
 项目根目录下的 Shell 脚本用于管理 Go2 机器狗的 SLAM 与导航。
@@ -25,7 +35,7 @@ sed -i 's/deb.debian.org/mirrors.aliyun.com/g' /etc/apt/sources.list && \
 sed -i 's/security.debian.org/mirrors.aliyun.com/g' /etc/apt/sources.list
 # 更新索引并安装 wget
 apt-get update && apt-get install -y wget
-wget http://fishros.com/install -O fishros && bash fishros  ( 此时选择5,便捷切换系统镜像以及ROS源，使用自动测速配置 )
+wget http://fishros.com/install -O fishros && bash fishros  ( 此时选择5,切换系统镜像以及ROS源，使用自动测速配置，选择中科大镜像源)
 apt-get install -y \
   python3-colcon-common-extensions \
   ros-jazzy-navigation2 \
@@ -41,7 +51,7 @@ apt-get install -y \
   ros-jazzy-robot-state-publisher \
   ros-jazzy-joint-state-publisher
 
-# clone项目
+# clone项目（这一步有问题和我说）
 cd /home/unitree/
 git clone https://github.com/CuteCar384/GO2_inner_slam.git
 # 本项目所有包都提前在GO2 EDU内部同docker环境进行过编译
