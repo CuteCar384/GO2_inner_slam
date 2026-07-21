@@ -12,7 +12,6 @@ sudo apt install wget
 
 # 安装 fishros ( 此时处于扩展坞内，非docker容器内，脚本内交互时可选更换国内镜像, 优选中科大镜像）
 wget http://fishros.com/install -O fishros && bash fishros
-（上述脚本会进入选项，选择Docker 模式安装ROS， 版本号jazzy， 容器命名也使用jazzy， 选择host模式。 
 # 进入容器
 xhost +
 sudo docker exec -it jazzy /bin/bash (此时进入docker容器内部，可以继续执行2部分）
