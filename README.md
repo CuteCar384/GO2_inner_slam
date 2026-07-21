@@ -14,7 +14,7 @@ sudo apt install wget
 wget http://fishros.com/install -O fishros && bash fishros
 # 进入容器
 xhost +
-sudo docker exec -it jazzy /bin/bash
+sudo docker exec -it jazzy /bin/bash (此时进入docker容器内部，可以继续执行2部分）
 ```
 
 ### 2、Docker容器内 环境
